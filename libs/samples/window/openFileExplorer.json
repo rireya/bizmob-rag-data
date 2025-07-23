@@ -1,0 +1,11 @@
+{
+  "result":true,
+  "file_path":[
+     "/storage/emulated/0/Android/data/kr.co.mcnc.bizmob4.dev/cache/20240402_140426.jpg",
+     "/storage/emulated/0/Android/data/kr.co.mcnc.bizmob4.dev/cache/20240402_140423.jpg"
+  ],
+  "uri_path":[
+     "content://com.android.providers.media.documents/document/image%3A1000002880",
+     "content://com.android.providers.media.documents/document/image%3A1000002879"
+  ]
+}

@@ -1,0 +1,1258 @@
+{
+  "totalFiles": 20,
+  "filesWithJSDoc": 17,
+  "totalFunctions": 198,
+  "functionsWithJSDoc": 66,
+  "detailedAnalysis": [
+    {
+      "file": "Window.ts",
+      "path": "libs\\typescript\\core\\Window.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "openSignPad",
+          "hasJSDoc": true,
+          "line": 3
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 7
+        },
+        {
+          "name": "openCodeReader",
+          "hasJSDoc": true,
+          "line": 18
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 21
+        },
+        {
+          "name": "openFileExplorer",
+          "hasJSDoc": true,
+          "line": 32
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 35
+        },
+        {
+          "name": "openImageViewer",
+          "hasJSDoc": true,
+          "line": 46
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 49
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 4,
+      "codeLines": 59,
+      "qualityScore": 8
+    },
+    {
+      "file": "System.ts",
+      "path": "libs\\typescript\\core\\System.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "callBrowser",
+          "hasJSDoc": true,
+          "line": 3
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 7
+        },
+        {
+          "name": "callCamera",
+          "hasJSDoc": true,
+          "line": 18
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 24
+        },
+        {
+          "name": "callGallery",
+          "hasJSDoc": true,
+          "line": 35
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 40
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 55
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 71
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 86
+        },
+        {
+          "name": "getGPS",
+          "hasJSDoc": true,
+          "line": 97
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 100
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 7,
+      "codeLines": 110,
+      "qualityScore": 7.454545454545455
+    },
+    {
+      "file": "Storage.ts",
+      "path": "libs\\typescript\\core\\Storage.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "get",
+          "hasJSDoc": true,
+          "line": 4
+        },
+        {
+          "name": "remove",
+          "hasJSDoc": true,
+          "line": 13
+        },
+        {
+          "name": "set",
+          "hasJSDoc": true,
+          "line": 22
+        },
+        {
+          "name": "setList",
+          "hasJSDoc": true,
+          "line": 32
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 4,
+      "codeLines": 43,
+      "qualityScore": 10
+    },
+    {
+      "file": "Push.ts",
+      "path": "libs\\typescript\\core\\Push.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "getAlarm",
+          "hasJSDoc": true,
+          "line": 3
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 8
+        },
+        {
+          "name": "getMessageList",
+          "hasJSDoc": true,
+          "line": 19
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 27
+        },
+        {
+          "name": "getPushKey",
+          "hasJSDoc": true,
+          "line": 38
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 42
+        },
+        {
+          "name": "getUnreadCount",
+          "hasJSDoc": true,
+          "line": 53
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 59
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 77
+        },
+        {
+          "name": "readReceiptMessage",
+          "hasJSDoc": true,
+          "line": 88
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 93
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 111
+        },
+        {
+          "name": "reset",
+          "hasJSDoc": true,
+          "line": 122
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 123
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 148
+        },
+        {
+          "name": "setAlarm",
+          "hasJSDoc": true,
+          "line": 159
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 165
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 180
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 11,
+      "codeLines": 190,
+      "qualityScore": 7.555555555555555
+    },
+    {
+      "file": "Properties.ts",
+      "path": "libs\\typescript\\core\\Properties.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "get",
+          "hasJSDoc": true,
+          "line": 4
+        },
+        {
+          "name": "remove",
+          "hasJSDoc": true,
+          "line": 13
+        },
+        {
+          "name": "set",
+          "hasJSDoc": true,
+          "line": 22
+        },
+        {
+          "name": "setList",
+          "hasJSDoc": true,
+          "line": 32
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 4,
+      "codeLines": 43,
+      "qualityScore": 10
+    },
+    {
+      "file": "Network.ts",
+      "path": "libs\\typescript\\core\\Network.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 28
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 49
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 69
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 88
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 5,
+      "codeLines": 98,
+      "qualityScore": 6
+    },
+    {
+      "file": "Logger.ts",
+      "path": "libs\\typescript\\core\\Logger.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "info",
+          "hasJSDoc": true,
+          "line": 3
+        },
+        {
+          "name": "log",
+          "hasJSDoc": true,
+          "line": 8
+        },
+        {
+          "name": "warn",
+          "hasJSDoc": true,
+          "line": 13
+        },
+        {
+          "name": "debug",
+          "hasJSDoc": true,
+          "line": 18
+        },
+        {
+          "name": "error",
+          "hasJSDoc": true,
+          "line": 23
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 5,
+      "codeLines": 27,
+      "qualityScore": 10
+    },
+    {
+      "file": "Localization.ts",
+      "path": "libs\\typescript\\core\\Localization.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "getLocale",
+          "hasJSDoc": true,
+          "line": 3
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 2,
+      "codeLines": 27,
+      "qualityScore": 10
+    },
+    {
+      "file": "index.ts",
+      "path": "libs\\typescript\\core\\index.ts",
+      "category": "core",
+      "hasJSDoc": false,
+      "functions": [],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 0,
+      "codeLines": 33,
+      "qualityScore": 0
+    },
+    {
+      "file": "File.ts",
+      "path": "libs\\typescript\\core\\File.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "copy",
+          "hasJSDoc": true,
+          "line": 3
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 8
+        },
+        {
+          "name": "directory",
+          "hasJSDoc": true,
+          "line": 19
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 23
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 45
+        },
+        {
+          "name": "exist",
+          "hasJSDoc": true,
+          "line": 56
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 60
+        },
+        {
+          "name": "getInfo",
+          "hasJSDoc": true,
+          "line": 71
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 77
+        },
+        {
+          "name": "move",
+          "hasJSDoc": true,
+          "line": 88
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 93
+        },
+        {
+          "name": "open",
+          "hasJSDoc": true,
+          "line": 104
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 108
+        },
+        {
+          "name": "remove",
+          "hasJSDoc": true,
+          "line": 119
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 123
+        },
+        {
+          "name": "resizeImage",
+          "hasJSDoc": true,
+          "line": 134
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 145
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 162
+        },
+        {
+          "name": "unzip",
+          "hasJSDoc": true,
+          "line": 173
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 178
+        },
+        {
+          "name": "upload",
+          "hasJSDoc": true,
+          "line": 189
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 196
+        },
+        {
+          "name": "zip",
+          "hasJSDoc": true,
+          "line": 207
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 212
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 13,
+      "codeLines": 222,
+      "qualityScore": 7.833333333333333
+    },
+    {
+      "file": "Event.ts",
+      "path": "libs\\typescript\\core\\Event.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "setEvent",
+          "hasJSDoc": true,
+          "line": 18
+        },
+        {
+          "name": "clearEvent",
+          "hasJSDoc": true,
+          "line": 26
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 3,
+      "codeLines": 30,
+      "qualityScore": 10
+    },
+    {
+      "file": "Device.ts",
+      "path": "libs\\typescript\\core\\Device.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "getInfo",
+          "hasJSDoc": true,
+          "line": 3
+        },
+        {
+          "name": "getInfo",
+          "hasJSDoc": false,
+          "line": 6
+        },
+        {
+          "name": "isWeb",
+          "hasJSDoc": true,
+          "line": 15
+        },
+        {
+          "name": "isMobile",
+          "hasJSDoc": true,
+          "line": 20
+        },
+        {
+          "name": "isPC",
+          "hasJSDoc": true,
+          "line": 25
+        },
+        {
+          "name": "isAndroid",
+          "hasJSDoc": true,
+          "line": 30
+        },
+        {
+          "name": "isIOS",
+          "hasJSDoc": true,
+          "line": 35
+        },
+        {
+          "name": "isTablet",
+          "hasJSDoc": true,
+          "line": 40
+        },
+        {
+          "name": "isPhone",
+          "hasJSDoc": true,
+          "line": 45
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 9,
+      "codeLines": 49,
+      "qualityScore": 9.555555555555555
+    },
+    {
+      "file": "Database.ts",
+      "path": "libs\\typescript\\core\\Database.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "beginTransaction",
+          "hasJSDoc": true,
+          "line": 3
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 6
+        },
+        {
+          "name": "closeDatabase",
+          "hasJSDoc": true,
+          "line": 17
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 20
+        },
+        {
+          "name": "commitTransaction",
+          "hasJSDoc": true,
+          "line": 31
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 34
+        },
+        {
+          "name": "executeBatchSql",
+          "hasJSDoc": true,
+          "line": 45
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 50
+        },
+        {
+          "name": "executeSelect",
+          "hasJSDoc": true,
+          "line": 61
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 66
+        },
+        {
+          "name": "executeSql",
+          "hasJSDoc": true,
+          "line": 77
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 82
+        },
+        {
+          "name": "openDatabase",
+          "hasJSDoc": true,
+          "line": 93
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 97
+        },
+        {
+          "name": "rollbackTransaction",
+          "hasJSDoc": true,
+          "line": 108
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 111
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 8,
+      "codeLines": 121,
+      "qualityScore": 8
+    },
+    {
+      "file": "Contacts.ts",
+      "path": "libs\\typescript\\core\\Contacts.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "get",
+          "hasJSDoc": true,
+          "line": 3
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 8
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 1,
+      "codeLines": 18,
+      "qualityScore": 8
+    },
+    {
+      "file": "Config.ts",
+      "path": "libs\\typescript\\core\\Config.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "set",
+          "hasJSDoc": true,
+          "line": 3
+        },
+        {
+          "name": "get",
+          "hasJSDoc": true,
+          "line": 8
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 2,
+      "codeLines": 12,
+      "qualityScore": 10
+    },
+    {
+      "file": "App.ts",
+      "path": "libs\\typescript\\core\\App.ts",
+      "category": "core",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "callPlugIn",
+          "hasJSDoc": true,
+          "line": 8
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 12
+        },
+        {
+          "name": "exit",
+          "hasJSDoc": true,
+          "line": 23
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 27
+        },
+        {
+          "name": "getTimeout",
+          "hasJSDoc": true,
+          "line": 38
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 41
+        },
+        {
+          "name": "setTimeout",
+          "hasJSDoc": true,
+          "line": 52
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 56
+        },
+        {
+          "name": "hideSplash",
+          "hasJSDoc": true,
+          "line": 67
+        },
+        {
+          "name": "Promise",
+          "hasJSDoc": false,
+          "line": 68
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 5,
+      "codeLines": 77,
+      "qualityScore": 8
+    },
+    {
+      "file": "BzToken.ts",
+      "path": "libs\\typescript\\classes\\BzToken.ts",
+      "category": "classes",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "isInit",
+          "hasJSDoc": false,
+          "line": 27
+        },
+        {
+          "name": "getAccessToken",
+          "hasJSDoc": false,
+          "line": 32
+        },
+        {
+          "name": "getAccessTokenExpTime",
+          "hasJSDoc": false,
+          "line": 37
+        },
+        {
+          "name": "getRefreshToken",
+          "hasJSDoc": false,
+          "line": 42
+        },
+        {
+          "name": "getRefreshTokenExpTime",
+          "hasJSDoc": false,
+          "line": 47
+        },
+        {
+          "name": "renewToken",
+          "hasJSDoc": false,
+          "line": 75
+        },
+        {
+          "name": "if",
+          "hasJSDoc": false,
+          "line": 86
+        },
+        {
+          "name": "isTokenExpired",
+          "hasJSDoc": false,
+          "line": 133
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 4,
+      "codeLines": 140,
+      "qualityScore": 6
+    },
+    {
+      "file": "BzLocale.ts",
+      "path": "libs\\typescript\\classes\\BzLocale.ts",
+      "category": "classes",
+      "hasJSDoc": false,
+      "functions": [
+        {
+          "name": "initLocale",
+          "hasJSDoc": false,
+          "line": 6
+        },
+        {
+          "name": "if",
+          "hasJSDoc": false,
+          "line": 7
+        },
+        {
+          "name": "getLocale",
+          "hasJSDoc": false,
+          "line": 15
+        },
+        {
+          "name": "changeLocale",
+          "hasJSDoc": false,
+          "line": 19
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 0,
+      "codeLines": 23,
+      "qualityScore": 0
+    },
+    {
+      "file": "BzCrypto.ts",
+      "path": "libs\\typescript\\classes\\BzCrypto.ts",
+      "category": "classes",
+      "hasJSDoc": true,
+      "functions": [
+        {
+          "name": "isInit",
+          "hasJSDoc": false,
+          "line": 57
+        },
+        {
+          "name": "getSymKey",
+          "hasJSDoc": false,
+          "line": 62
+        },
+        {
+          "name": "getCryAuthToken",
+          "hasJSDoc": false,
+          "line": 67
+        },
+        {
+          "name": "getCryAuthTokenExpTime",
+          "hasJSDoc": false,
+          "line": 72
+        },
+        {
+          "name": "getCryRefreshToken",
+          "hasJSDoc": false,
+          "line": 77
+        },
+        {
+          "name": "getCryRefreshTokenExpTime",
+          "hasJSDoc": false,
+          "line": 82
+        },
+        {
+          "name": "shareAuthKey",
+          "hasJSDoc": false,
+          "line": 109
+        },
+        {
+          "name": "if",
+          "hasJSDoc": false,
+          "line": 131
+        },
+        {
+          "name": "renewAuthToken",
+          "hasJSDoc": false,
+          "line": 178
+        },
+        {
+          "name": "if",
+          "hasJSDoc": false,
+          "line": 190
+        },
+        {
+          "name": "isTokenRequired",
+          "hasJSDoc": false,
+          "line": 233
+        },
+        {
+          "name": "isTokenExpired",
+          "hasJSDoc": false,
+          "line": 238
+        },
+        {
+          "name": "if",
+          "hasJSDoc": false,
+          "line": 243
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 6,
+      "codeLines": 251,
+      "qualityScore": 6
+    },
+    {
+      "file": "bizmob.d.ts",
+      "path": "libs\\typescript\\types\\bizmob.d.ts",
+      "category": "types",
+      "hasJSDoc": false,
+      "functions": [
+        {
+          "name": "set",
+          "hasJSDoc": false,
+          "line": 3
+        },
+        {
+          "name": "info",
+          "hasJSDoc": false,
+          "line": 9
+        },
+        {
+          "name": "get",
+          "hasJSDoc": false,
+          "line": 18
+        },
+        {
+          "name": "set",
+          "hasJSDoc": false,
+          "line": 20
+        },
+        {
+          "name": "get",
+          "hasJSDoc": false,
+          "line": 27
+        },
+        {
+          "name": "set",
+          "hasJSDoc": false,
+          "line": 29
+        },
+        {
+          "name": "changeLocale",
+          "hasJSDoc": false,
+          "line": 38
+        },
+        {
+          "name": "requestLogin",
+          "hasJSDoc": false,
+          "line": 53
+        },
+        {
+          "name": "requestTr",
+          "hasJSDoc": false,
+          "line": 77
+        },
+        {
+          "name": "requestHttp",
+          "hasJSDoc": false,
+          "line": 98
+        },
+        {
+          "name": "requestApi",
+          "hasJSDoc": false,
+          "line": 117
+        },
+        {
+          "name": "callPlugIn",
+          "hasJSDoc": false,
+          "line": 136
+        },
+        {
+          "name": "getTimeout",
+          "hasJSDoc": false,
+          "line": 138
+        },
+        {
+          "name": "hideSplash",
+          "hasJSDoc": false,
+          "line": 140
+        },
+        {
+          "name": "getInfo",
+          "hasJSDoc": false,
+          "line": 145
+        },
+        {
+          "name": "isApp",
+          "hasJSDoc": false,
+          "line": 147
+        },
+        {
+          "name": "copy",
+          "hasJSDoc": false,
+          "line": 195
+        },
+        {
+          "name": "download",
+          "hasJSDoc": false,
+          "line": 197
+        },
+        {
+          "name": "getInfo",
+          "hasJSDoc": false,
+          "line": 204
+        },
+        {
+          "name": "open",
+          "hasJSDoc": false,
+          "line": 206
+        },
+        {
+          "name": "resizeImage",
+          "hasJSDoc": false,
+          "line": 208
+        },
+        {
+          "name": "unzip",
+          "hasJSDoc": false,
+          "line": 223
+        },
+        {
+          "name": "zip",
+          "hasJSDoc": false,
+          "line": 225
+        },
+        {
+          "name": "getAlarm",
+          "hasJSDoc": false,
+          "line": 243
+        },
+        {
+          "name": "getPushKey",
+          "hasJSDoc": false,
+          "line": 245
+        },
+        {
+          "name": "readMessage",
+          "hasJSDoc": false,
+          "line": 247
+        },
+        {
+          "name": "registerToServer",
+          "hasJSDoc": false,
+          "line": 249
+        },
+        {
+          "name": "setAlarm",
+          "hasJSDoc": false,
+          "line": 252
+        },
+        {
+          "name": "callBrowser",
+          "hasJSDoc": false,
+          "line": 267
+        },
+        {
+          "name": "callGallery",
+          "hasJSDoc": false,
+          "line": 269
+        },
+        {
+          "name": "callSMS",
+          "hasJSDoc": false,
+          "line": 271
+        },
+        {
+          "name": "getGPS",
+          "hasJSDoc": false,
+          "line": 273
+        },
+        {
+          "name": "openSignPad",
+          "hasJSDoc": false,
+          "line": 284
+        },
+        {
+          "name": "openFileExplorer",
+          "hasJSDoc": false,
+          "line": 286
+        },
+        {
+          "name": "get",
+          "hasJSDoc": false,
+          "line": 295
+        },
+        {
+          "name": "setEvent",
+          "hasJSDoc": false,
+          "line": 300
+        },
+        {
+          "name": "beginTransaction",
+          "hasJSDoc": false,
+          "line": 309
+        },
+        {
+          "name": "closeDatabase",
+          "hasJSDoc": false,
+          "line": 312
+        },
+        {
+          "name": "commitTransaction",
+          "hasJSDoc": false,
+          "line": 315
+        },
+        {
+          "name": "executeBatchSql",
+          "hasJSDoc": false,
+          "line": 318
+        },
+        {
+          "name": "executeSelect",
+          "hasJSDoc": false,
+          "line": 321
+        },
+        {
+          "name": "executeSql",
+          "hasJSDoc": false,
+          "line": 324
+        },
+        {
+          "name": "openDatabase",
+          "hasJSDoc": false,
+          "line": 327
+        },
+        {
+          "name": "rollbackTransaction",
+          "hasJSDoc": false,
+          "line": 330
+        },
+        {
+          "name": "getLocale",
+          "hasJSDoc": false,
+          "line": 339
+        },
+        {
+          "name": "request",
+          "hasJSDoc": false,
+          "line": 345
+        },
+        {
+          "name": "setConfig",
+          "hasJSDoc": false,
+          "line": 353
+        },
+        {
+          "name": "isInit",
+          "hasJSDoc": false,
+          "line": 386
+        },
+        {
+          "name": "shareAuthKey",
+          "hasJSDoc": false,
+          "line": 413
+        },
+        {
+          "name": "isTokenRequired",
+          "hasJSDoc": false,
+          "line": 423
+        },
+        {
+          "name": "isInit",
+          "hasJSDoc": false,
+          "line": 432
+        },
+        {
+          "name": "renewToken",
+          "hasJSDoc": false,
+          "line": 455
+        },
+        {
+          "name": "initLocale",
+          "hasJSDoc": false,
+          "line": 466
+        }
+      ],
+      "classes": [],
+      "interfaces": [],
+      "jsDocBlocks": 0,
+      "codeLines": 485,
+      "qualityScore": 0
+    }
+  ],
+  "qualityScore": 7.119949494949495
+}

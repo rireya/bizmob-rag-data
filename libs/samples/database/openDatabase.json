@@ -1,0 +1,4 @@
+{
+    "result" : "Boolean|데이터베이스 오픈 결과 값",
+    "error_message" : "String|데이터베이스 오픈 실패시 오류 메세지."
+}

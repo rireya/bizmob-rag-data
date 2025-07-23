@@ -1,0 +1,1772 @@
+[
+  {
+    "id": "Window_openSignPad_chunk_0",
+    "parentId": "Window_openSignPad",
+    "chunkIndex": 0,
+    "title": "Window.openSignPad",
+    "type": "function",
+    "category": "classes",
+    "content": "# Window.openSignPad\n\n## 함수 시그니처\n```typescript\nopenSignPad(arg: { _sTargetPath: string, // 사인패드 이미지 저장 경로 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n사인패드 열기",
+    "metadata": {
+      "module": "Window",
+      "functionName": "openSignPad",
+      "source": "libs\\typescript\\core\\Window.ts",
+      "line": 3
+    }
+  },
+  {
+    "id": "Window_Promise_chunk_0",
+    "parentId": "Window_Promise",
+    "chunkIndex": 0,
+    "title": "Window.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Window.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Window.openSignPad({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n사인패드 열기",
+    "metadata": {
+      "module": "Window",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Window.ts",
+      "line": 7
+    }
+  },
+  {
+    "id": "Window_openCodeReader_chunk_0",
+    "parentId": "Window_openCodeReader",
+    "chunkIndex": 0,
+    "title": "Window.openCodeReader",
+    "type": "function",
+    "category": "classes",
+    "content": "# Window.openCodeReader\n\n## 함수 시그니처\n```typescript\nopenCodeReader(arg?: { _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n바코드, QR코드 리더 열기",
+    "metadata": {
+      "module": "Window",
+      "functionName": "openCodeReader",
+      "source": "libs\\typescript\\core\\Window.ts",
+      "line": 18
+    }
+  },
+  {
+    "id": "Window_Promise_chunk_0",
+    "parentId": "Window_Promise",
+    "chunkIndex": 0,
+    "title": "Window.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Window.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Window.openCodeReader({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n바코드, QR코드 리더 열기",
+    "metadata": {
+      "module": "Window",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Window.ts",
+      "line": 21
+    }
+  },
+  {
+    "id": "Window_openFileExplorer_chunk_0",
+    "parentId": "Window_openFileExplorer",
+    "chunkIndex": 0,
+    "title": "Window.openFileExplorer",
+    "type": "function",
+    "category": "classes",
+    "content": "# Window.openFileExplorer\n\n## 함수 시그니처\n```typescript\nopenFileExplorer(arg?: { _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n파일 탐색기 열기",
+    "metadata": {
+      "module": "Window",
+      "functionName": "openFileExplorer",
+      "source": "libs\\typescript\\core\\Window.ts",
+      "line": 32
+    }
+  },
+  {
+    "id": "Window_Promise_chunk_0",
+    "parentId": "Window_Promise",
+    "chunkIndex": 0,
+    "title": "Window.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Window.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Window.openFileExplorer({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n파일 탐색기 열기",
+    "metadata": {
+      "module": "Window",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Window.ts",
+      "line": 35
+    }
+  },
+  {
+    "id": "Window_openImageViewer_chunk_0",
+    "parentId": "Window_openImageViewer",
+    "chunkIndex": 0,
+    "title": "Window.openImageViewer",
+    "type": "function",
+    "category": "classes",
+    "content": "# Window.openImageViewer\n\n## 함수 시그니처\n```typescript\nopenImageViewer(arg: { _sImagePath: string, // 이미지 뷰어로 열 이미지 경로 }): Promise<Record<string, any>>\n```\n\n## 설명\n이미지 뷰어 열기",
+    "metadata": {
+      "module": "Window",
+      "functionName": "openImageViewer",
+      "source": "libs\\typescript\\core\\Window.ts",
+      "line": 46
+    }
+  },
+  {
+    "id": "Window_Promise_chunk_0",
+    "parentId": "Window_Promise",
+    "chunkIndex": 0,
+    "title": "Window.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Window.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Window.openImageViewer({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n이미지 뷰어 열기",
+    "metadata": {
+      "module": "Window",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Window.ts",
+      "line": 49
+    }
+  },
+  {
+    "id": "System_callBrowser_chunk_0",
+    "parentId": "System_callBrowser",
+    "chunkIndex": 0,
+    "title": "System.callBrowser",
+    "type": "function",
+    "category": "classes",
+    "content": "# System.callBrowser\n\n## 함수 시그니처\n```typescript\ncallBrowser(arg: { _sURL: string, // 호출할 URL _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<void>\n```\n\n## 설명\n단말기의 브라우저를 호출합니다.",
+    "metadata": {
+      "module": "System",
+      "functionName": "callBrowser",
+      "source": "libs\\typescript\\core\\System.ts",
+      "line": 3
+    }
+  },
+  {
+    "id": "System_Promise_chunk_0",
+    "parentId": "System_Promise",
+    "chunkIndex": 0,
+    "title": "System.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# System.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.System.callBrowser({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n단말기의 브라우저를 호출합니다.",
+    "metadata": {
+      "module": "System",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\System.ts",
+      "line": 7
+    }
+  },
+  {
+    "id": "System_callCamera_chunk_0",
+    "parentId": "System_callCamera",
+    "chunkIndex": 0,
+    "title": "System.callCamera",
+    "type": "function",
+    "category": "classes",
+    "content": "# System.callCamera\n\n## 함수 시그니처\n```typescript\ncallCamera(arg: { _sFileName?: string, // 찍은 이미지를 저장할 이름 _sDirectory?: string, // 찍은 이미지를 저장할 경로 _bAutoVerticalHorizontal: boolean, // 찍은 이미지를 화면에 맞게 자동으로 회전시켜 저장할지를 설정하는 값 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n디바이스의 카메라를 이용하여 사진을 찍습니다.",
+    "metadata": {
+      "module": "System",
+      "functionName": "callCamera",
+      "source": "libs\\typescript\\core\\System.ts",
+      "line": 18
+    }
+  },
+  {
+    "id": "System_Promise_chunk_0",
+    "parentId": "System_Promise",
+    "chunkIndex": 0,
+    "title": "System.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# System.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.System.callCamera({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n디바이스의 카메라를 이용하여 사진을 찍습니다.",
+    "metadata": {
+      "module": "System",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\System.ts",
+      "line": 24
+    }
+  },
+  {
+    "id": "System_callGallery_chunk_0",
+    "parentId": "System_callGallery",
+    "chunkIndex": 0,
+    "title": "System.callGallery",
+    "type": "function",
+    "category": "classes",
+    "content": "# System.callGallery\n\n## 함수 시그니처\n```typescript\ncallGallery(arg: { _sType: 'all' | 'image' | 'video', // 러리에서 불러올 미디어 타입 _nMaxCount?: number, // 선택 가능 개수 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n디바이스의 사진앨범(갤러리)를 호출합니다.",
+    "metadata": {
+      "module": "System",
+      "functionName": "callGallery",
+      "source": "libs\\typescript\\core\\System.ts",
+      "line": 35
+    }
+  },
+  {
+    "id": "System_Promise_chunk_0",
+    "parentId": "System_Promise",
+    "chunkIndex": 0,
+    "title": "System.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# System.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.System.callGallery({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n디바이스의 사진앨범(갤러리)를 호출합니다.",
+    "metadata": {
+      "module": "System",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\System.ts",
+      "line": 40
+    }
+  },
+  {
+    "id": "System_Promise_chunk_0",
+    "parentId": "System_Promise",
+    "chunkIndex": 0,
+    "title": "System.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# System.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.System.callMap({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n디바이스의 지도(Map) 앱을 호출하여 보여줍니다.",
+    "metadata": {
+      "module": "System",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\System.ts",
+      "line": 55
+    }
+  },
+  {
+    "id": "System_Promise_chunk_0",
+    "parentId": "System_Promise",
+    "chunkIndex": 0,
+    "title": "System.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# System.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.System.callSMS({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n문자(SMS) 발송 화면을 열어줍니다.",
+    "metadata": {
+      "module": "System",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\System.ts",
+      "line": 71
+    }
+  },
+  {
+    "id": "System_Promise_chunk_0",
+    "parentId": "System_Promise",
+    "chunkIndex": 0,
+    "title": "System.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# System.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.System.callTEL({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n디바이스의 전화걸기 기능을 수행합니다.",
+    "metadata": {
+      "module": "System",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\System.ts",
+      "line": 86
+    }
+  },
+  {
+    "id": "System_getGPS_chunk_0",
+    "parentId": "System_getGPS",
+    "chunkIndex": 0,
+    "title": "System.getGPS",
+    "type": "function",
+    "category": "classes",
+    "content": "# System.getGPS\n\n## 함수 시그니처\n```typescript\ngetGPS(arg?: { _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n디바이스의 현재 GPS정보를 가져옵니다.",
+    "metadata": {
+      "module": "System",
+      "functionName": "getGPS",
+      "source": "libs\\typescript\\core\\System.ts",
+      "line": 97
+    }
+  },
+  {
+    "id": "System_Promise_chunk_0",
+    "parentId": "System_Promise",
+    "chunkIndex": 0,
+    "title": "System.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# System.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.System.getGPS({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n디바이스의 현재 GPS정보를 가져옵니다.",
+    "metadata": {
+      "module": "System",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\System.ts",
+      "line": 100
+    }
+  },
+  {
+    "id": "Storage_get_chunk_0",
+    "parentId": "Storage_get",
+    "chunkIndex": 0,
+    "title": "Storage.get",
+    "type": "function",
+    "category": "classes",
+    "content": "# Storage.get\n\n## 함수 시그니처\n```typescript\nget(arg: { _sKey: string, // Storage 에서 가져올 키 값 }): any\n```\n\n## 설명\nStorage 조회",
+    "metadata": {
+      "module": "Storage",
+      "functionName": "get",
+      "source": "libs\\typescript\\core\\Storage.ts",
+      "line": 4
+    }
+  },
+  {
+    "id": "Storage_remove_chunk_0",
+    "parentId": "Storage_remove",
+    "chunkIndex": 0,
+    "title": "Storage.remove",
+    "type": "function",
+    "category": "classes",
+    "content": "# Storage.remove\n\n## 함수 시그니처\n```typescript\nremove(arg: { _sKey: string, // Storage 에서 삭제할 키 값 }): void\n```\n\n## 설명\nStorage 제거",
+    "metadata": {
+      "module": "Storage",
+      "functionName": "remove",
+      "source": "libs\\typescript\\core\\Storage.ts",
+      "line": 13
+    }
+  },
+  {
+    "id": "Storage_set_chunk_0",
+    "parentId": "Storage_set",
+    "chunkIndex": 0,
+    "title": "Storage.set",
+    "type": "function",
+    "category": "classes",
+    "content": "# Storage.set\n\n## 함수 시그니처\n```typescript\nset(arg: { _sKey: string, // Storage 에 저장할 키 값 _vValue: any, // Storage 에 저장할 값 }): void\n```\n\n## 설명\nStorage 저장 (단일)",
+    "metadata": {
+      "module": "Storage",
+      "functionName": "set",
+      "source": "libs\\typescript\\core\\Storage.ts",
+      "line": 22
+    }
+  },
+  {
+    "id": "Storage_setList_chunk_0",
+    "parentId": "Storage_setList",
+    "chunkIndex": 0,
+    "title": "Storage.setList",
+    "type": "function",
+    "category": "classes",
+    "content": "# Storage.setList\n\n## 함수 시그니처\n```typescript\nsetList(arg: { _aList: { _sKey: string, // Storage 에 저장할 키 값 _vValue: any, // Storage 에 저장할 값 }[] }): void\n```\n\n## 설명\nStorage 저장 (복수)",
+    "metadata": {
+      "module": "Storage",
+      "functionName": "setList",
+      "source": "libs\\typescript\\core\\Storage.ts",
+      "line": 32
+    }
+  },
+  {
+    "id": "Push_getAlarm_chunk_0",
+    "parentId": "Push_getAlarm",
+    "chunkIndex": 0,
+    "title": "Push.getAlarm",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.getAlarm\n\n## 함수 시그니처\n```typescript\ngetAlarm(arg: { _sUserId: string, // 푸시 알림이 설정된 사용자 아이디 _bProgressEnable?: boolean, // 푸시 서버와 통신 중일때 화면에 progress 를 표시할지에 대한 여부 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n푸시 서버로부터 설정된 푸시 알람을 가져옵니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "getAlarm",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 3
+    }
+  },
+  {
+    "id": "Push_Promise_chunk_0",
+    "parentId": "Push_Promise",
+    "chunkIndex": 0,
+    "title": "Push.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Push.getAlarm({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n푸시 서버로부터 설정된 푸시 알람을 가져옵니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 8
+    }
+  },
+  {
+    "id": "Push_getMessageList_chunk_0",
+    "parentId": "Push_getMessageList",
+    "chunkIndex": 0,
+    "title": "Push.getMessageList",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.getMessageList\n\n## 함수 시그니처\n```typescript\ngetMessageList(arg: { _sUserId: string, // 푸시 메세지를 가져올 사용자 이이디 _nPageIndex: number, // 푸시 메세지를 가져올 페이지 번호 _nItemCount: number, // 해당 페이지에서 가져올 푸시 메세지 갯수 _sAppName: string, // 푸시 메세지를 가져올 앱 이름 _bProgressEnable?: boolean, // 푸시 서버와 통신 중일때 화면에 progress 를 표시할지에 대한 여부 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n푸시 메세지 목록을 가져옵니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "getMessageList",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 19
+    }
+  },
+  {
+    "id": "Push_Promise_chunk_0",
+    "parentId": "Push_Promise",
+    "chunkIndex": 0,
+    "title": "Push.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Push.getMessageList({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n푸시 메세지 목록을 가져옵니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 27
+    }
+  },
+  {
+    "id": "Push_getPushKey_chunk_0",
+    "parentId": "Push_getPushKey",
+    "chunkIndex": 0,
+    "title": "Push.getPushKey",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.getPushKey\n\n## 함수 시그니처\n```typescript\ngetPushKey(arg?: { _bProgressEnable?: boolean, // 푸시 서버와 통신 중일때 화면에 progress 를 표시할지에 대한 여부 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n푸시키를 받아옵니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "getPushKey",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 38
+    }
+  },
+  {
+    "id": "Push_Promise_chunk_0",
+    "parentId": "Push_Promise",
+    "chunkIndex": 0,
+    "title": "Push.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Push.getPushKey({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n푸시키를 받아옵니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 42
+    }
+  },
+  {
+    "id": "Push_getUnreadCount_chunk_0",
+    "parentId": "Push_getUnreadCount",
+    "chunkIndex": 0,
+    "title": "Push.getUnreadCount",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.getUnreadCount\n\n## 함수 시그니처\n```typescript\ngetUnreadCount(arg: { _sUserId: string, // 읽지 않은 메세지를 가져올 사용자 아이디 _sAppName: string, // 푸시 메세지를 가져올 앱 이름 _bProgressEnable?: boolean, // 푸시 서버와 통신 중일때 화면에 progress 를 표시할지에 대한 여부 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n읽지 않은 푸시 메세지 갯수를 가져옵니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "getUnreadCount",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 53
+    }
+  },
+  {
+    "id": "Push_Promise_chunk_0",
+    "parentId": "Push_Promise",
+    "chunkIndex": 0,
+    "title": "Push.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Push.getUnreadCount({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n읽지 않은 푸시 메세지 갯수를 가져옵니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 59
+    }
+  },
+  {
+    "id": "Push_Promise_chunk_0",
+    "parentId": "Push_Promise",
+    "chunkIndex": 0,
+    "title": "Push.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Push.readMessage({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n푸시 메세지를 읽음 처리 합니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 77
+    }
+  },
+  {
+    "id": "Push_readReceiptMessage_chunk_0",
+    "parentId": "Push_readReceiptMessage",
+    "chunkIndex": 0,
+    "title": "Push.readReceiptMessage",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.readReceiptMessage\n\n## 함수 시그니처\n```typescript\nreadReceiptMessage(arg: { _sUserId: string, // 수신받은 메세지를 조회할 사용자 아이디 _sMessageId: string, // 조회할 수신 메시지의 아이디 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n수신받은 푸시 메세지의 상세 정보를 조회합니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "readReceiptMessage",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 88
+    }
+  },
+  {
+    "id": "Push_Promise_chunk_0",
+    "parentId": "Push_Promise",
+    "chunkIndex": 0,
+    "title": "Push.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Push.readReceiptMessage({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n수신받은 푸시 메세지의 상세 정보를 조회합니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 93
+    }
+  },
+  {
+    "id": "Push_Promise_chunk_0",
+    "parentId": "Push_Promise",
+    "chunkIndex": 0,
+    "title": "Push.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Push.registerToServer({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n푸시키를 서버에 등록합니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 111
+    }
+  },
+  {
+    "id": "Push_reset_chunk_0",
+    "parentId": "Push_reset",
+    "chunkIndex": 0,
+    "title": "Push.reset",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.reset\n\n## 함수 시그니처\n```typescript\nreset(): Promise<Record<string, any>>\n```\n\n## 설명\n디바이스에 저장된 푸시 등록 관련 정보를 리셋합니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "reset",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 122
+    }
+  },
+  {
+    "id": "Push_Promise_chunk_0",
+    "parentId": "Push_Promise",
+    "chunkIndex": 0,
+    "title": "Push.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Push.reset({ _fCallback: function(res: any)\n```\n\n## 설명\n디바이스에 저장된 푸시 등록 관련 정보를 리셋합니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 123
+    }
+  },
+  {
+    "id": "Push_Promise_chunk_0",
+    "parentId": "Push_Promise",
+    "chunkIndex": 0,
+    "title": "Push.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Push.sendMessage({ ...arg, _fCallback: function(res: any)\n```",
+    "metadata": {
+      "module": "Push",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 148
+    }
+  },
+  {
+    "id": "Push_setAlarm_chunk_0",
+    "parentId": "Push_setAlarm",
+    "chunkIndex": 0,
+    "title": "Push.setAlarm",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.setAlarm\n\n## 함수 시그니처\n```typescript\nsetAlarm(arg: { _sUserId: string, // 푸시 알람을 설정할 사용자 이이디 _bEnabled: boolean, // 알람 설정 값입니다. true와 false로 설정이 가능 _bProgressEnable?: boolean, // 푸시 서버와 통신 중일때 화면에 progress 를 표시할지에 대한 여부 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n푸시 알람을 설정합니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "setAlarm",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 159
+    }
+  },
+  {
+    "id": "Push_Promise_chunk_0",
+    "parentId": "Push_Promise",
+    "chunkIndex": 0,
+    "title": "Push.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Push.setAlarm({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n푸시 알람을 설정합니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 165
+    }
+  },
+  {
+    "id": "Push_Promise_chunk_0",
+    "parentId": "Push_Promise",
+    "chunkIndex": 0,
+    "title": "Push.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Push.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Push.setBadgeCount({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n벳지 카운트를 설정합니다.",
+    "metadata": {
+      "module": "Push",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Push.ts",
+      "line": 180
+    }
+  },
+  {
+    "id": "Properties_get_chunk_0",
+    "parentId": "Properties_get",
+    "chunkIndex": 0,
+    "title": "Properties.get",
+    "type": "function",
+    "category": "classes",
+    "content": "# Properties.get\n\n## 함수 시그니처\n```typescript\nget(arg: { _sKey: string, // Property에서 가져올 키 값 }): any\n```\n\n## 설명\nProperties 조회",
+    "metadata": {
+      "module": "Properties",
+      "functionName": "get",
+      "source": "libs\\typescript\\core\\Properties.ts",
+      "line": 4
+    }
+  },
+  {
+    "id": "Properties_remove_chunk_0",
+    "parentId": "Properties_remove",
+    "chunkIndex": 0,
+    "title": "Properties.remove",
+    "type": "function",
+    "category": "classes",
+    "content": "# Properties.remove\n\n## 함수 시그니처\n```typescript\nremove(arg: { _sKey: string, // Property에서 삭제할 키 값 }): void\n```\n\n## 설명\nProperties 제거",
+    "metadata": {
+      "module": "Properties",
+      "functionName": "remove",
+      "source": "libs\\typescript\\core\\Properties.ts",
+      "line": 13
+    }
+  },
+  {
+    "id": "Properties_set_chunk_0",
+    "parentId": "Properties_set",
+    "chunkIndex": 0,
+    "title": "Properties.set",
+    "type": "function",
+    "category": "classes",
+    "content": "# Properties.set\n\n## 함수 시그니처\n```typescript\nset(arg: { _sKey: string, // Property에 저장할 키 값 _vValue: any, // Property에 저장할 값 }): void\n```\n\n## 설명\nProperties 저장 (단일)",
+    "metadata": {
+      "module": "Properties",
+      "functionName": "set",
+      "source": "libs\\typescript\\core\\Properties.ts",
+      "line": 22
+    }
+  },
+  {
+    "id": "Properties_setList_chunk_0",
+    "parentId": "Properties_setList",
+    "chunkIndex": 0,
+    "title": "Properties.setList",
+    "type": "function",
+    "category": "classes",
+    "content": "# Properties.setList\n\n## 함수 시그니처\n```typescript\nsetList(arg: { _aList: { _sKey: string, // Property에 저장할 키 값 _vValue: any, // Property에 저장할 값 }[] }): void\n```\n\n## 설명\nProperties 저장 (복수)",
+    "metadata": {
+      "module": "Properties",
+      "functionName": "setList",
+      "source": "libs\\typescript\\core\\Properties.ts",
+      "line": 32
+    }
+  },
+  {
+    "id": "Network_Promise_chunk_0",
+    "parentId": "Network_Promise",
+    "chunkIndex": 0,
+    "title": "Network.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Network.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Network.requestLogin({ ...arg, _fCallback: function(res: any)\n```",
+    "metadata": {
+      "module": "Network",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Network.ts",
+      "line": 28
+    }
+  },
+  {
+    "id": "Network_Promise_chunk_0",
+    "parentId": "Network_Promise",
+    "chunkIndex": 0,
+    "title": "Network.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Network.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Network.requestTr({ ...arg, _fCallback: function(res: any)\n```",
+    "metadata": {
+      "module": "Network",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Network.ts",
+      "line": 49
+    }
+  },
+  {
+    "id": "Network_Promise_chunk_0",
+    "parentId": "Network_Promise",
+    "chunkIndex": 0,
+    "title": "Network.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Network.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Network.requestHttp({ ...arg, _fCallback: function(res: any)\n```",
+    "metadata": {
+      "module": "Network",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Network.ts",
+      "line": 69
+    }
+  },
+  {
+    "id": "Network_Promise_chunk_0",
+    "parentId": "Network_Promise",
+    "chunkIndex": 0,
+    "title": "Network.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Network.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Http.request({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\nWeb 통신 (웹 단독)",
+    "metadata": {
+      "module": "Network",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Network.ts",
+      "line": 88
+    }
+  },
+  {
+    "id": "Localization_getLocale_chunk_0",
+    "parentId": "Localization_getLocale",
+    "chunkIndex": 0,
+    "title": "Localization.getLocale",
+    "type": "function",
+    "category": "classes",
+    "content": "# Localization.getLocale\n\n## 함수 시그니처\n```typescript\ngetLocale(arg?: { _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\nLocale 조회",
+    "metadata": {
+      "module": "Localization",
+      "functionName": "getLocale",
+      "source": "libs\\typescript\\core\\Localization.ts",
+      "line": 3
+    }
+  },
+  {
+    "id": "File_copy_chunk_0",
+    "parentId": "File_copy",
+    "chunkIndex": 0,
+    "title": "File.copy",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.copy\n\n## 함수 시그니처\n```typescript\ncopy(arg: { _sSourcePath: string, // 복사할 파일의 경로 _sTargetPath: string, // 복사될 경로 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n파일 복사",
+    "metadata": {
+      "module": "File",
+      "functionName": "copy",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 3
+    }
+  },
+  {
+    "id": "File_Promise_chunk_0",
+    "parentId": "File_Promise",
+    "chunkIndex": 0,
+    "title": "File.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.File.copy({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n파일 복사",
+    "metadata": {
+      "module": "File",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 8
+    }
+  },
+  {
+    "id": "File_directory_chunk_0",
+    "parentId": "File_directory",
+    "chunkIndex": 0,
+    "title": "File.directory",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.directory\n\n## 함수 시그니처\n```typescript\ndirectory(arg: { _sDirectory: string, // 디렉토리 경로 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n디렉토리 정보 조회",
+    "metadata": {
+      "module": "File",
+      "functionName": "directory",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 19
+    }
+  },
+  {
+    "id": "File_Promise_chunk_0",
+    "parentId": "File_Promise",
+    "chunkIndex": 0,
+    "title": "File.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.File.directory({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n디렉토리 정보 조회",
+    "metadata": {
+      "module": "File",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 23
+    }
+  },
+  {
+    "id": "File_Promise_chunk_0",
+    "parentId": "File_Promise",
+    "chunkIndex": 0,
+    "title": "File.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.File.download({ ...arg, _fCallback: function(res: any)\n```",
+    "metadata": {
+      "module": "File",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 45
+    }
+  },
+  {
+    "id": "File_exist_chunk_0",
+    "parentId": "File_exist",
+    "chunkIndex": 0,
+    "title": "File.exist",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.exist\n\n## 함수 시그니처\n```typescript\nexist(arg: { _sSourcePath: string, // 존재 여부를 확인할 파일 경로 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n파일 존재여부 확인",
+    "metadata": {
+      "module": "File",
+      "functionName": "exist",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 56
+    }
+  },
+  {
+    "id": "File_Promise_chunk_0",
+    "parentId": "File_Promise",
+    "chunkIndex": 0,
+    "title": "File.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.File.exist({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n파일 존재여부 확인",
+    "metadata": {
+      "module": "File",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 60
+    }
+  },
+  {
+    "id": "File_getInfo_chunk_0",
+    "parentId": "File_getInfo",
+    "chunkIndex": 0,
+    "title": "File.getInfo",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.getInfo\n\n## 함수 시그니처\n```typescript\ngetInfo(arg: { _aFileList: { _sSourcePath: string, // 파일의 경로 }[], _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>[]>\n```\n\n## 설명\n파일 정보 조회",
+    "metadata": {
+      "module": "File",
+      "functionName": "getInfo",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 71
+    }
+  },
+  {
+    "id": "File_Promise_chunk_0",
+    "parentId": "File_Promise",
+    "chunkIndex": 0,
+    "title": "File.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.File.getInfo({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n파일 정보 조회",
+    "metadata": {
+      "module": "File",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 77
+    }
+  },
+  {
+    "id": "File_move_chunk_0",
+    "parentId": "File_move",
+    "chunkIndex": 0,
+    "title": "File.move",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.move\n\n## 함수 시그니처\n```typescript\nmove(arg: { _sSourcePath: string, // 이동할 파일의 경로 _sTargetPath: string, // 이동될 경로 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n파일 이동",
+    "metadata": {
+      "module": "File",
+      "functionName": "move",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 88
+    }
+  },
+  {
+    "id": "File_Promise_chunk_0",
+    "parentId": "File_Promise",
+    "chunkIndex": 0,
+    "title": "File.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.File.move({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n파일 이동",
+    "metadata": {
+      "module": "File",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 93
+    }
+  },
+  {
+    "id": "File_open_chunk_0",
+    "parentId": "File_open",
+    "chunkIndex": 0,
+    "title": "File.open",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.open\n\n## 함수 시그니처\n```typescript\nopen(arg: { _sSourcePath: string, // 열어서 보여줄 대상 파일 경로 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n파일 Open",
+    "metadata": {
+      "module": "File",
+      "functionName": "open",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 104
+    }
+  },
+  {
+    "id": "File_Promise_chunk_0",
+    "parentId": "File_Promise",
+    "chunkIndex": 0,
+    "title": "File.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.File.open({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n파일 Open",
+    "metadata": {
+      "module": "File",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 108
+    }
+  },
+  {
+    "id": "File_remove_chunk_0",
+    "parentId": "File_remove",
+    "chunkIndex": 0,
+    "title": "File.remove",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.remove\n\n## 함수 시그니처\n```typescript\nremove(arg: { _aSourcePath: string[], // 삭제할 파일목록 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n파일 삭제",
+    "metadata": {
+      "module": "File",
+      "functionName": "remove",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 119
+    }
+  },
+  {
+    "id": "File_Promise_chunk_0",
+    "parentId": "File_Promise",
+    "chunkIndex": 0,
+    "title": "File.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.File.remove({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n파일 삭제",
+    "metadata": {
+      "module": "File",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 123
+    }
+  },
+  {
+    "id": "File_resizeImage_chunk_0",
+    "parentId": "File_resizeImage",
+    "chunkIndex": 0,
+    "title": "File.resizeImage",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.resizeImage\n\n## 함수 시그니처\n```typescript\nresizeImage(arg: { _aFileList: { _sSourcePath: string }[], _bIsCopy: boolean, // 파일 Copy 여부 _sTargetDirectory: string, // 리사이즈 파일 경로 _nCompressRate: number, // 파일 축소 비율 _nWidth: number, // width 변경 값 _nHeight: number, // height 변경 값 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n이미지 리사이즈",
+    "metadata": {
+      "module": "File",
+      "functionName": "resizeImage",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 134
+    }
+  },
+  {
+    "id": "File_Promise_chunk_0",
+    "parentId": "File_Promise",
+    "chunkIndex": 0,
+    "title": "File.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.File.resizeImage({ ...arg, _fCallback: function(res: any)\n```",
+    "metadata": {
+      "module": "File",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 145
+    }
+  },
+  {
+    "id": "File_Promise_chunk_0",
+    "parentId": "File_Promise",
+    "chunkIndex": 0,
+    "title": "File.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.File.rotateImage({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n파일 회전",
+    "metadata": {
+      "module": "File",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 162
+    }
+  },
+  {
+    "id": "File_unzip_chunk_0",
+    "parentId": "File_unzip",
+    "chunkIndex": 0,
+    "title": "File.unzip",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.unzip\n\n## 함수 시그니처\n```typescript\nunzip(arg: { _sSourcePath: string, // 회전시킬 이미지 파일 경로 _sDirectory: string, // 디렉토리 경로 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n파일 압축풀기",
+    "metadata": {
+      "module": "File",
+      "functionName": "unzip",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 173
+    }
+  },
+  {
+    "id": "File_Promise_chunk_0",
+    "parentId": "File_Promise",
+    "chunkIndex": 0,
+    "title": "File.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.File.unzip({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n파일 압축풀기",
+    "metadata": {
+      "module": "File",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 178
+    }
+  },
+  {
+    "id": "File_upload_chunk_0",
+    "parentId": "File_upload",
+    "chunkIndex": 0,
+    "title": "File.upload",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.upload\n\n## 함수 시그니처\n```typescript\nupload(arg: { _aFileList: { _sSourcePath: string, // 업로드할 파일의 경로 _sFileName: string, // 업로드할 파일의 이름 }[], _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n파일 업로드",
+    "metadata": {
+      "module": "File",
+      "functionName": "upload",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 189
+    }
+  },
+  {
+    "id": "File_Promise_chunk_0",
+    "parentId": "File_Promise",
+    "chunkIndex": 0,
+    "title": "File.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.File.upload({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n파일 업로드",
+    "metadata": {
+      "module": "File",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 196
+    }
+  },
+  {
+    "id": "File_zip_chunk_0",
+    "parentId": "File_zip",
+    "chunkIndex": 0,
+    "title": "File.zip",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.zip\n\n## 함수 시그니처\n```typescript\nzip(arg: { _sSourcePath: string, // 압축할 파일의 경로 _sTargetPath: string, // 압축된 파일이 저장될 경로 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n파일 풀기",
+    "metadata": {
+      "module": "File",
+      "functionName": "zip",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 207
+    }
+  },
+  {
+    "id": "File_Promise_chunk_0",
+    "parentId": "File_Promise",
+    "chunkIndex": 0,
+    "title": "File.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# File.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.File.zip({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n파일 풀기",
+    "metadata": {
+      "module": "File",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\File.ts",
+      "line": 212
+    }
+  },
+  {
+    "id": "Event_setEvent_chunk_0",
+    "parentId": "Event_setEvent",
+    "chunkIndex": 0,
+    "title": "Event.setEvent",
+    "type": "function",
+    "category": "classes",
+    "content": "# Event.setEvent\n\n## 함수 시그니처\n```typescript\nsetEvent(sEvent: string, fCallback: any): void\n```\n\n## 설명\nNative 이벤트 설정 (기존 이벤트 목록 덮어쓰기)\n\n## 매개변수\n- **sEvent** : Native 이벤트 명\n- **fCallback** : Callback 함수 or 이름",
+    "metadata": {
+      "module": "Event",
+      "functionName": "setEvent",
+      "source": "libs\\typescript\\core\\Event.ts",
+      "line": 18
+    }
+  },
+  {
+    "id": "Event_clearEvent_chunk_0",
+    "parentId": "Event_clearEvent",
+    "chunkIndex": 0,
+    "title": "Event.clearEvent",
+    "type": "function",
+    "category": "classes",
+    "content": "# Event.clearEvent\n\n## 함수 시그니처\n```typescript\nclearEvent(sEvent: string): void\n```\n\n## 설명\nNative 이벤트 전체 제거\n\n## 매개변수\n- **sEvent** : Native 이벤트 명",
+    "metadata": {
+      "module": "Event",
+      "functionName": "clearEvent",
+      "source": "libs\\typescript\\core\\Event.ts",
+      "line": 26
+    }
+  },
+  {
+    "id": "Device_getInfo_chunk_0",
+    "parentId": "Device_getInfo",
+    "chunkIndex": 0,
+    "title": "Device.getInfo",
+    "type": "function",
+    "category": "classes",
+    "content": "# Device.getInfo\n\n## 함수 시그니처\n```typescript\ngetInfo(arg?: { _sKey: string // Device Info Key })\n```\n\n## 설명\n디바이스 정보 조회",
+    "metadata": {
+      "module": "Device",
+      "functionName": "getInfo",
+      "source": "libs\\typescript\\core\\Device.ts",
+      "line": 3
+    }
+  },
+  {
+    "id": "Device_getInfo_chunk_0",
+    "parentId": "Device_getInfo",
+    "chunkIndex": 0,
+    "title": "Device.getInfo",
+    "type": "function",
+    "category": "classes",
+    "content": "# Device.getInfo\n\n## 함수 시그니처\n```typescript\ngetInfo(arg): window.bizMOB.Device.getInfo();\n  }\n\n  /** App 판단 여부 */\n  static isApp()\n```\n\n## 설명\n디바이스 정보 조회",
+    "metadata": {
+      "module": "Device",
+      "functionName": "getInfo",
+      "source": "libs\\typescript\\core\\Device.ts",
+      "line": 6
+    }
+  },
+  {
+    "id": "Database_beginTransaction_chunk_0",
+    "parentId": "Database_beginTransaction",
+    "chunkIndex": 0,
+    "title": "Database.beginTransaction",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.beginTransaction\n\n## 함수 시그니처\n```typescript\nbeginTransaction(arg?: { _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n트랜잭션을 시작합니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "beginTransaction",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 3
+    }
+  },
+  {
+    "id": "Database_Promise_chunk_0",
+    "parentId": "Database_Promise",
+    "chunkIndex": 0,
+    "title": "Database.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Database.beginTransaction({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n트랜잭션을 시작합니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 6
+    }
+  },
+  {
+    "id": "Database_closeDatabase_chunk_0",
+    "parentId": "Database_closeDatabase",
+    "chunkIndex": 0,
+    "title": "Database.closeDatabase",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.closeDatabase\n\n## 함수 시그니처\n```typescript\ncloseDatabase(arg?: { _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n사용중인 SQlite 데이터베이스를 닫아줍니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "closeDatabase",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 17
+    }
+  },
+  {
+    "id": "Database_Promise_chunk_0",
+    "parentId": "Database_Promise",
+    "chunkIndex": 0,
+    "title": "Database.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Database.closeDatabase({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n사용중인 SQlite 데이터베이스를 닫아줍니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 20
+    }
+  },
+  {
+    "id": "Database_commitTransaction_chunk_0",
+    "parentId": "Database_commitTransaction",
+    "chunkIndex": 0,
+    "title": "Database.commitTransaction",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.commitTransaction\n\n## 함수 시그니처\n```typescript\ncommitTransaction(arg?: { _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n트랜잭션을 커밋합니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "commitTransaction",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 31
+    }
+  },
+  {
+    "id": "Database_Promise_chunk_0",
+    "parentId": "Database_Promise",
+    "chunkIndex": 0,
+    "title": "Database.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Database.commitTransaction({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n트랜잭션을 커밋합니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 34
+    }
+  },
+  {
+    "id": "Database_executeBatchSql_chunk_0",
+    "parentId": "Database_executeBatchSql",
+    "chunkIndex": 0,
+    "title": "Database.executeBatchSql",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.executeBatchSql\n\n## 함수 시그니처\n```typescript\nexecuteBatchSql(arg: { _sQuery: string, // SQL 쿼리문 _aBindingValues?: string, // SQL 쿼리문의 바인딩 값 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\nSQL쿼리문을 일괄 실행합니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "executeBatchSql",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 45
+    }
+  },
+  {
+    "id": "Database_Promise_chunk_0",
+    "parentId": "Database_Promise",
+    "chunkIndex": 0,
+    "title": "Database.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Database.executeBatchSql({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\nSQL쿼리문을 일괄 실행합니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 50
+    }
+  },
+  {
+    "id": "Database_executeSelect_chunk_0",
+    "parentId": "Database_executeSelect",
+    "chunkIndex": 0,
+    "title": "Database.executeSelect",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.executeSelect\n\n## 함수 시그니처\n```typescript\nexecuteSelect(arg: { _sQuery: string, // SQL 쿼리문 _aBindingValues?: string, // SQL 쿼리문의 바인딩 값 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\nSELECT SQL쿼리문을 실행합니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "executeSelect",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 61
+    }
+  },
+  {
+    "id": "Database_Promise_chunk_0",
+    "parentId": "Database_Promise",
+    "chunkIndex": 0,
+    "title": "Database.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Database.executeSelect({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\nSELECT SQL쿼리문을 실행합니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 66
+    }
+  },
+  {
+    "id": "Database_executeSql_chunk_0",
+    "parentId": "Database_executeSql",
+    "chunkIndex": 0,
+    "title": "Database.executeSql",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.executeSql\n\n## 함수 시그니처\n```typescript\nexecuteSql(arg: { _sQuery: string, // SQL 쿼리문 _aBindingValues?: string, // SQL 쿼리문의 바인딩 값 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\nSQL쿼리문을 실행합니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "executeSql",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 77
+    }
+  },
+  {
+    "id": "Database_Promise_chunk_0",
+    "parentId": "Database_Promise",
+    "chunkIndex": 0,
+    "title": "Database.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Database.executeSql({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\nSQL쿼리문을 실행합니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 82
+    }
+  },
+  {
+    "id": "Database_openDatabase_chunk_0",
+    "parentId": "Database_openDatabase",
+    "chunkIndex": 0,
+    "title": "Database.openDatabase",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.openDatabase\n\n## 함수 시그니처\n```typescript\nopenDatabase(arg: { _sDbName: string, // 오픈할 대상 데이터베이스 이름 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\nSQLite 데이터베이스를 사용할 수 있도록 열어줍니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "openDatabase",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 93
+    }
+  },
+  {
+    "id": "Database_Promise_chunk_0",
+    "parentId": "Database_Promise",
+    "chunkIndex": 0,
+    "title": "Database.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Database.openDatabase({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\nSQLite 데이터베이스를 사용할 수 있도록 열어줍니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 97
+    }
+  },
+  {
+    "id": "Database_rollbackTransaction_chunk_0",
+    "parentId": "Database_rollbackTransaction",
+    "chunkIndex": 0,
+    "title": "Database.rollbackTransaction",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.rollbackTransaction\n\n## 함수 시그니처\n```typescript\nrollbackTransaction(arg?: { _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n트랜잭션을 롤백합니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "rollbackTransaction",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 108
+    }
+  },
+  {
+    "id": "Database_Promise_chunk_0",
+    "parentId": "Database_Promise",
+    "chunkIndex": 0,
+    "title": "Database.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Database.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Database.rollbackTransaction({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n트랜잭션을 롤백합니다.",
+    "metadata": {
+      "module": "Database",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Database.ts",
+      "line": 111
+    }
+  },
+  {
+    "id": "Contacts_get_chunk_0",
+    "parentId": "Contacts_get",
+    "chunkIndex": 0,
+    "title": "Contacts.get",
+    "type": "function",
+    "category": "classes",
+    "content": "# Contacts.get\n\n## 함수 시그니처\n```typescript\nget(arg: { _sSearchType: '' | 'name' | 'phone', // 주소록 검색 타입. \"\" or name or phone _sSearchText?: string, // 주소록 검색어 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n연락처 조회",
+    "metadata": {
+      "module": "Contacts",
+      "functionName": "get",
+      "source": "libs\\typescript\\core\\Contacts.ts",
+      "line": 3
+    }
+  },
+  {
+    "id": "Contacts_Promise_chunk_0",
+    "parentId": "Contacts_Promise",
+    "chunkIndex": 0,
+    "title": "Contacts.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# Contacts.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.Contacts.get({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n연락처 조회",
+    "metadata": {
+      "module": "Contacts",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\Contacts.ts",
+      "line": 8
+    }
+  },
+  {
+    "id": "Config_set_chunk_0",
+    "parentId": "Config_set",
+    "chunkIndex": 0,
+    "title": "Config.set",
+    "type": "function",
+    "category": "classes",
+    "content": "# Config.set\n\n## 함수 시그니처\n```typescript\nset(target: string, className: string, arg: any)\n```\n\n## 설명\nbizMOB Class Config Set",
+    "metadata": {
+      "module": "Config",
+      "functionName": "set",
+      "source": "libs\\typescript\\core\\Config.ts",
+      "line": 3
+    }
+  },
+  {
+    "id": "Config_get_chunk_0",
+    "parentId": "Config_get",
+    "chunkIndex": 0,
+    "title": "Config.get",
+    "type": "function",
+    "category": "classes",
+    "content": "# Config.get\n\n## 함수 시그니처\n```typescript\nget(target: string, className: string)\n```\n\n## 설명\nbizMOB Class Config Set",
+    "metadata": {
+      "module": "Config",
+      "functionName": "get",
+      "source": "libs\\typescript\\core\\Config.ts",
+      "line": 8
+    }
+  },
+  {
+    "id": "App_callPlugIn_chunk_0",
+    "parentId": "App_callPlugIn",
+    "chunkIndex": 0,
+    "title": "App.callPlugIn",
+    "type": "function",
+    "category": "classes",
+    "content": "# App.callPlugIn\n\n## 함수 시그니처\n```typescript\ncallPlugIn(api: string, arg?: { [key: string]: any; _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\nNative 플러그인 호출 API\n\n## 매개변수\n- **api** : Native Call API ID\n- **arg** : call 파라미터\n\n## 반환값",
+    "metadata": {
+      "module": "App",
+      "functionName": "callPlugIn",
+      "source": "libs\\typescript\\core\\App.ts",
+      "line": 8
+    }
+  },
+  {
+    "id": "App_Promise_chunk_0",
+    "parentId": "App_Promise",
+    "chunkIndex": 0,
+    "title": "App.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# App.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.App.callPlugIn(api, { ...arg, _fCallback: function(res: any)\n```",
+    "metadata": {
+      "module": "App",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\App.ts",
+      "line": 12
+    }
+  },
+  {
+    "id": "App_exit_chunk_0",
+    "parentId": "App_exit",
+    "chunkIndex": 0,
+    "title": "App.exit",
+    "type": "function",
+    "category": "classes",
+    "content": "# App.exit\n\n## 함수 시그니처\n```typescript\nexit(arg: { _sType: 'exit' | 'kill' | 'logout', // 어플리케이션 종료 유형입니다. kill or exit : 어플리케이션 종료, logout : 어플리케이션 재시작 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n앱 종료",
+    "metadata": {
+      "module": "App",
+      "functionName": "exit",
+      "source": "libs\\typescript\\core\\App.ts",
+      "line": 23
+    }
+  },
+  {
+    "id": "App_Promise_chunk_0",
+    "parentId": "App_Promise",
+    "chunkIndex": 0,
+    "title": "App.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# App.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.App.exit({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n앱 종료",
+    "metadata": {
+      "module": "App",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\App.ts",
+      "line": 27
+    }
+  },
+  {
+    "id": "App_getTimeout_chunk_0",
+    "parentId": "App_getTimeout",
+    "chunkIndex": 0,
+    "title": "App.getTimeout",
+    "type": "function",
+    "category": "classes",
+    "content": "# App.getTimeout\n\n## 함수 시그니처\n```typescript\ngetTimeout(arg?: { _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n세션타임아웃 조회",
+    "metadata": {
+      "module": "App",
+      "functionName": "getTimeout",
+      "source": "libs\\typescript\\core\\App.ts",
+      "line": 38
+    }
+  },
+  {
+    "id": "App_Promise_chunk_0",
+    "parentId": "App_Promise",
+    "chunkIndex": 0,
+    "title": "App.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# App.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.App.getTimeout({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n세션타임아웃 조회",
+    "metadata": {
+      "module": "App",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\App.ts",
+      "line": 41
+    }
+  },
+  {
+    "id": "App_setTimeout_chunk_0",
+    "parentId": "App_setTimeout",
+    "chunkIndex": 0,
+    "title": "App.setTimeout",
+    "type": "function",
+    "category": "classes",
+    "content": "# App.setTimeout\n\n## 함수 시그니처\n```typescript\nsetTimeout(arg?: { _nSeconds: number, // 어플리케이션의 자동 종료 시간 값 _bMock?: boolean, // Mock 데이터 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\n세션타임아웃 설정 (분 단위 설정)",
+    "metadata": {
+      "module": "App",
+      "functionName": "setTimeout",
+      "source": "libs\\typescript\\core\\App.ts",
+      "line": 52
+    }
+  },
+  {
+    "id": "App_Promise_chunk_0",
+    "parentId": "App_Promise",
+    "chunkIndex": 0,
+    "title": "App.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# App.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.App.setTimeout({ ...arg, _fCallback: function(res: any)\n```\n\n## 설명\n세션타임아웃 설정 (분 단위 설정)",
+    "metadata": {
+      "module": "App",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\App.ts",
+      "line": 56
+    }
+  },
+  {
+    "id": "App_hideSplash_chunk_0",
+    "parentId": "App_hideSplash",
+    "chunkIndex": 0,
+    "title": "App.hideSplash",
+    "type": "function",
+    "category": "classes",
+    "content": "# App.hideSplash\n\n## 함수 시그니처\n```typescript\nhideSplash()\n```\n\n## 설명\nNative 스플래시 숨김 (스플래시 수동 조작 앱인 경우)",
+    "metadata": {
+      "module": "App",
+      "functionName": "hideSplash",
+      "source": "libs\\typescript\\core\\App.ts",
+      "line": 67
+    }
+  },
+  {
+    "id": "App_Promise_chunk_0",
+    "parentId": "App_Promise",
+    "chunkIndex": 0,
+    "title": "App.Promise",
+    "type": "function",
+    "category": "classes",
+    "content": "# App.Promise\n\n## 함수 시그니처\n```typescript\nPromise(resolve => { window.bizMOB.App.hideSplash({ _fCallback: function(res: any)\n```\n\n## 설명\nNative 스플래시 숨김 (스플래시 수동 조작 앱인 경우)",
+    "metadata": {
+      "module": "App",
+      "functionName": "Promise",
+      "source": "libs\\typescript\\core\\App.ts",
+      "line": 68
+    }
+  },
+  {
+    "id": "BzToken_getAccessTokenExpTime_chunk_0",
+    "parentId": "BzToken_getAccessTokenExpTime",
+    "chunkIndex": 0,
+    "title": "BzToken.getAccessTokenExpTime",
+    "type": "function",
+    "category": "classes",
+    "content": "# BzToken.getAccessTokenExpTime\n\n## 함수 시그니처\n```typescript\ngetAccessTokenExpTime(): string | null\n```",
+    "metadata": {
+      "module": "BzToken",
+      "functionName": "getAccessTokenExpTime",
+      "source": "libs\\typescript\\classes\\BzToken.ts",
+      "line": 37
+    }
+  },
+  {
+    "id": "BzToken_getRefreshTokenExpTime_chunk_0",
+    "parentId": "BzToken_getRefreshTokenExpTime",
+    "chunkIndex": 0,
+    "title": "BzToken.getRefreshTokenExpTime",
+    "type": "function",
+    "category": "classes",
+    "content": "# BzToken.getRefreshTokenExpTime\n\n## 함수 시그니처\n```typescript\ngetRefreshTokenExpTime(): string | null\n```",
+    "metadata": {
+      "module": "BzToken",
+      "functionName": "getRefreshTokenExpTime",
+      "source": "libs\\typescript\\classes\\BzToken.ts",
+      "line": 47
+    }
+  },
+  {
+    "id": "BzToken_renewToken_chunk_0",
+    "parentId": "BzToken_renewToken",
+    "chunkIndex": 0,
+    "title": "BzToken.renewToken",
+    "type": "function",
+    "category": "classes",
+    "content": "# BzToken.renewToken\n\n## 함수 시그니처\n```typescript\nrenewToken(arg?: { _bProgressEnable?: boolean; // Native App Progress 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\nJWT Token 갱신",
+    "metadata": {
+      "module": "BzToken",
+      "functionName": "renewToken",
+      "source": "libs\\typescript\\classes\\BzToken.ts",
+      "line": 75
+    }
+  },
+  {
+    "id": "BzToken_isTokenExpired_chunk_0",
+    "parentId": "BzToken_isTokenExpired",
+    "chunkIndex": 0,
+    "title": "BzToken.isTokenExpired",
+    "type": "function",
+    "category": "classes",
+    "content": "# BzToken.isTokenExpired\n\n## 함수 시그니처\n```typescript\nisTokenExpired(): boolean\n```\n\n## 설명\nJwt Token 만료 여부",
+    "metadata": {
+      "module": "BzToken",
+      "functionName": "isTokenExpired",
+      "source": "libs\\typescript\\classes\\BzToken.ts",
+      "line": 133
+    }
+  },
+  {
+    "id": "BzCrypto_getCryAuthTokenExpTime_chunk_0",
+    "parentId": "BzCrypto_getCryAuthTokenExpTime",
+    "chunkIndex": 0,
+    "title": "BzCrypto.getCryAuthTokenExpTime",
+    "type": "function",
+    "category": "classes",
+    "content": "# BzCrypto.getCryAuthTokenExpTime\n\n## 함수 시그니처\n```typescript\ngetCryAuthTokenExpTime(): string | null\n```",
+    "metadata": {
+      "module": "BzCrypto",
+      "functionName": "getCryAuthTokenExpTime",
+      "source": "libs\\typescript\\classes\\BzCrypto.ts",
+      "line": 72
+    }
+  },
+  {
+    "id": "BzCrypto_getCryRefreshTokenExpTime_chunk_0",
+    "parentId": "BzCrypto_getCryRefreshTokenExpTime",
+    "chunkIndex": 0,
+    "title": "BzCrypto.getCryRefreshTokenExpTime",
+    "type": "function",
+    "category": "classes",
+    "content": "# BzCrypto.getCryRefreshTokenExpTime\n\n## 함수 시그니처\n```typescript\ngetCryRefreshTokenExpTime(): string | null\n```",
+    "metadata": {
+      "module": "BzCrypto",
+      "functionName": "getCryRefreshTokenExpTime",
+      "source": "libs\\typescript\\classes\\BzCrypto.ts",
+      "line": 82
+    }
+  },
+  {
+    "id": "BzCrypto_shareAuthKey_chunk_0",
+    "parentId": "BzCrypto_shareAuthKey",
+    "chunkIndex": 0,
+    "title": "BzCrypto.shareAuthKey",
+    "type": "function",
+    "category": "classes",
+    "content": "# BzCrypto.shareAuthKey\n\n## 함수 시그니처\n```typescript\nshareAuthKey(arg?: { _bProgressEnable?: boolean; // Native App Progress 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\nAuth Token 발급",
+    "metadata": {
+      "module": "BzCrypto",
+      "functionName": "shareAuthKey",
+      "source": "libs\\typescript\\classes\\BzCrypto.ts",
+      "line": 109
+    }
+  },
+  {
+    "id": "BzCrypto_renewAuthToken_chunk_0",
+    "parentId": "BzCrypto_renewAuthToken",
+    "chunkIndex": 0,
+    "title": "BzCrypto.renewAuthToken",
+    "type": "function",
+    "category": "classes",
+    "content": "# BzCrypto.renewAuthToken\n\n## 함수 시그니처\n```typescript\nrenewAuthToken(arg?: { _bProgressEnable?: boolean; // Native App Progress 사용 여부 }): Promise<Record<string, any>>\n```\n\n## 설명\nAuth Token 갱신",
+    "metadata": {
+      "module": "BzCrypto",
+      "functionName": "renewAuthToken",
+      "source": "libs\\typescript\\classes\\BzCrypto.ts",
+      "line": 178
+    }
+  },
+  {
+    "id": "BzCrypto_isTokenRequired_chunk_0",
+    "parentId": "BzCrypto_isTokenRequired",
+    "chunkIndex": 0,
+    "title": "BzCrypto.isTokenRequired",
+    "type": "function",
+    "category": "classes",
+    "content": "# BzCrypto.isTokenRequired\n\n## 함수 시그니처\n```typescript\nisTokenRequired(): boolean\n```\n\n## 설명\nAuth Token 발급 필요 여부",
+    "metadata": {
+      "module": "BzCrypto",
+      "functionName": "isTokenRequired",
+      "source": "libs\\typescript\\classes\\BzCrypto.ts",
+      "line": 233
+    }
+  },
+  {
+    "id": "BzCrypto_isTokenExpired_chunk_0",
+    "parentId": "BzCrypto_isTokenExpired",
+    "chunkIndex": 0,
+    "title": "BzCrypto.isTokenExpired",
+    "type": "function",
+    "category": "classes",
+    "content": "# BzCrypto.isTokenExpired\n\n## 함수 시그니처\n```typescript\nisTokenExpired(): boolean\n```\n\n## 설명\nAuth Token 발급 필요 여부",
+    "metadata": {
+      "module": "BzCrypto",
+      "functionName": "isTokenExpired",
+      "source": "libs\\typescript\\classes\\BzCrypto.ts",
+      "line": 238
+    }
+  }
+]

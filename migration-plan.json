@@ -1,0 +1,538 @@
+{
+  "jsFiles": [
+    {
+      "from": "public\\bizMOB\\bizMOB-xross4.js",
+      "to": "libs/javascript/bundles/bizMOB-xross4.js",
+      "category": "bundles"
+    },
+    {
+      "from": "public\\bizMOB\\bizMOB-polyfill.js",
+      "to": "libs/javascript/bundles/bizMOB-polyfill.js",
+      "category": "bundles"
+    },
+    {
+      "from": "public\\bizMOB\\bizMOB-locale.js",
+      "to": "libs/javascript/bundles/bizMOB-locale.js",
+      "category": "bundles"
+    },
+    {
+      "from": "public\\bizMOB\\bizMOB-core.js",
+      "to": "libs/javascript/bundles/bizMOB-core.js",
+      "category": "bundles"
+    },
+    {
+      "from": "public\\bizMOB\\bizMOB-core-web.js",
+      "to": "libs/javascript/bundles/bizMOB-core-web.js",
+      "category": "bundles"
+    },
+    {
+      "from": "public\\extlib\\forge.min.js",
+      "to": "libs/javascript/externals/forge.min.js",
+      "category": "externals"
+    },
+    {
+      "from": "public\\extlib\\crypto-js.min.js",
+      "to": "libs/javascript/externals/crypto-js.min.js",
+      "category": "externals"
+    },
+    {
+      "from": "public\\bizMOB\\bizMOB-xross4.js",
+      "to": "libs/javascript/bundles/bizMOB-xross4.js",
+      "category": "bundles"
+    },
+    {
+      "from": "public\\bizMOB\\bizMOB-polyfill.js",
+      "to": "libs/javascript/bundles/bizMOB-polyfill.js",
+      "category": "bundles"
+    },
+    {
+      "from": "public\\bizMOB\\bizMOB-locale.js",
+      "to": "libs/javascript/bundles/bizMOB-locale.js",
+      "category": "bundles"
+    },
+    {
+      "from": "public\\bizMOB\\bizMOB-core.js",
+      "to": "libs/javascript/bundles/bizMOB-core.js",
+      "category": "bundles"
+    },
+    {
+      "from": "public\\bizMOB\\bizMOB-core-web.js",
+      "to": "libs/javascript/bundles/bizMOB-core-web.js",
+      "category": "bundles"
+    }
+  ],
+  "tsFiles": [
+    {
+      "from": "src\\bizMOB\\Xross\\Window.ts",
+      "to": "libs/typescript/core/Window.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\System.ts",
+      "to": "libs/typescript/core/System.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Storage.ts",
+      "to": "libs/typescript/core/Storage.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Push.ts",
+      "to": "libs/typescript/core/Push.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Properties.ts",
+      "to": "libs/typescript/core/Properties.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Network.ts",
+      "to": "libs/typescript/core/Network.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Logger.ts",
+      "to": "libs/typescript/core/Logger.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Localization.ts",
+      "to": "libs/typescript/core/Localization.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\index.ts",
+      "to": "libs/typescript/core/index.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\File.ts",
+      "to": "libs/typescript/core/File.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Event.ts",
+      "to": "libs/typescript/core/Event.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Device.ts",
+      "to": "libs/typescript/core/Device.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Database.ts",
+      "to": "libs/typescript/core/Database.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Contacts.ts",
+      "to": "libs/typescript/core/Contacts.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Config.ts",
+      "to": "libs/typescript/core/Config.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\App.ts",
+      "to": "libs/typescript/core/App.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\BzClass\\BzToken.ts",
+      "to": "libs/typescript/classes/BzToken.ts",
+      "category": "classes"
+    },
+    {
+      "from": "src\\bizMOB\\BzClass\\BzLocale.ts",
+      "to": "libs/typescript/classes/BzLocale.ts",
+      "category": "classes"
+    },
+    {
+      "from": "src\\bizMOB\\BzClass\\BzCrypto.ts",
+      "to": "libs/typescript/classes/BzCrypto.ts",
+      "category": "classes"
+    },
+    {
+      "from": "src\\bizMOB\\i18n\\index.ts",
+      "to": "libs/typescript/i18n/index.ts",
+      "category": "i18n"
+    },
+    {
+      "from": "src\\bizMOB\\bizmob.d.ts",
+      "to": "libs/typescript/types/bizmob.d.ts",
+      "category": "types"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Window.ts",
+      "to": "libs/typescript/core/Window.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\System.ts",
+      "to": "libs/typescript/core/System.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Storage.ts",
+      "to": "libs/typescript/core/Storage.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Push.ts",
+      "to": "libs/typescript/core/Push.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Properties.ts",
+      "to": "libs/typescript/core/Properties.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Network.ts",
+      "to": "libs/typescript/core/Network.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Logger.ts",
+      "to": "libs/typescript/core/Logger.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Localization.ts",
+      "to": "libs/typescript/core/Localization.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\index.ts",
+      "to": "libs/typescript/core/index.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\File.ts",
+      "to": "libs/typescript/core/File.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Event.ts",
+      "to": "libs/typescript/core/Event.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Device.ts",
+      "to": "libs/typescript/core/Device.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Database.ts",
+      "to": "libs/typescript/core/Database.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Contacts.ts",
+      "to": "libs/typescript/core/Contacts.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\Config.ts",
+      "to": "libs/typescript/core/Config.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\Xross\\App.ts",
+      "to": "libs/typescript/core/App.ts",
+      "category": "core"
+    },
+    {
+      "from": "src\\bizMOB\\i18n\\index.ts",
+      "to": "libs/typescript/i18n/index.ts",
+      "category": "i18n"
+    },
+    {
+      "from": "src\\bizMOB\\BzClass\\BzToken.ts",
+      "to": "libs/typescript/classes/BzToken.ts",
+      "category": "classes"
+    },
+    {
+      "from": "src\\bizMOB\\BzClass\\BzLocale.ts",
+      "to": "libs/typescript/classes/BzLocale.ts",
+      "category": "classes"
+    },
+    {
+      "from": "src\\bizMOB\\BzClass\\BzCrypto.ts",
+      "to": "libs/typescript/classes/BzCrypto.ts",
+      "category": "classes"
+    }
+  ],
+  "jsonFiles": [
+    {
+      "from": "public\\mock\\DM0002.json",
+      "to": "libs/samples/legacy/DM0002.json",
+      "category": "samples/legacy"
+    },
+    {
+      "from": "public\\mock\\DM0001.json",
+      "to": "libs/samples/legacy/DM0001.json",
+      "category": "samples/legacy"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Window\\openSignPad.json",
+      "to": "libs/samples/window/openSignPad.json",
+      "category": "samples/window"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Window\\openImageViewer.json",
+      "to": "libs/samples/window/openImageViewer.json",
+      "category": "samples/window"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Window\\openFileExplorer.json",
+      "to": "libs/samples/window/openFileExplorer.json",
+      "category": "samples/window"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Window\\openCodeReader.json",
+      "to": "libs/samples/window/openCodeReader.json",
+      "category": "samples/window"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\System\\getGPS.json",
+      "to": "libs/samples/system/getGPS.json",
+      "category": "samples/system"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\System\\callTEL.json",
+      "to": "libs/samples/system/callTEL.json",
+      "category": "samples/system"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\System\\callSMS.json",
+      "to": "libs/samples/system/callSMS.json",
+      "category": "samples/system"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\System\\callMap.json",
+      "to": "libs/samples/system/callMap.json",
+      "category": "samples/system"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\System\\callGallery.json",
+      "to": "libs/samples/system/callGallery.json",
+      "category": "samples/system"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\System\\callCamera.json",
+      "to": "libs/samples/system/callCamera.json",
+      "category": "samples/system"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\System\\callBrowser.json",
+      "to": "libs/samples/system/callBrowser.json",
+      "category": "samples/system"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Push\\setBadgeCount.json",
+      "to": "libs/samples/push/setBadgeCount.json",
+      "category": "samples/push"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Push\\setAlarm.json",
+      "to": "libs/samples/push/setAlarm.json",
+      "category": "samples/push"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Push\\sendMessage.json",
+      "to": "libs/samples/push/sendMessage.json",
+      "category": "samples/push"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Push\\reset.json",
+      "to": "libs/samples/push/reset.json",
+      "category": "samples/push"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Push\\registerToServer.json",
+      "to": "libs/samples/push/registerToServer.json",
+      "category": "samples/push"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Push\\readReceiptMessage.json",
+      "to": "libs/samples/push/readReceiptMessage.json",
+      "category": "samples/push"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Push\\readMessage.json",
+      "to": "libs/samples/push/readMessage.json",
+      "category": "samples/push"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Push\\getUnreadCount.json",
+      "to": "libs/samples/push/getUnreadCount.json",
+      "category": "samples/push"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Push\\getPushKey.json",
+      "to": "libs/samples/push/getPushKey.json",
+      "category": "samples/push"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Push\\getMessageList.json",
+      "to": "libs/samples/push/getMessageList.json",
+      "category": "samples/push"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Push\\getAlarm.json",
+      "to": "libs/samples/push/getAlarm.json",
+      "category": "samples/push"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\File\\zip.json",
+      "to": "libs/samples/file/zip.json",
+      "category": "samples/file"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\File\\upload.json",
+      "to": "libs/samples/file/upload.json",
+      "category": "samples/file"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\File\\unzip.json",
+      "to": "libs/samples/file/unzip.json",
+      "category": "samples/file"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\File\\rotateImage.json",
+      "to": "libs/samples/file/rotateImage.json",
+      "category": "samples/file"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\File\\resizeImage.json",
+      "to": "libs/samples/file/resizeImage.json",
+      "category": "samples/file"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\File\\remove.json",
+      "to": "libs/samples/file/remove.json",
+      "category": "samples/file"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\File\\open.json",
+      "to": "libs/samples/file/open.json",
+      "category": "samples/file"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\File\\move.json",
+      "to": "libs/samples/file/move.json",
+      "category": "samples/file"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\File\\getInfo.json",
+      "to": "libs/samples/file/getInfo.json",
+      "category": "samples/file"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\File\\exist.json",
+      "to": "libs/samples/file/exist.json",
+      "category": "samples/file"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\File\\download.json",
+      "to": "libs/samples/file/download.json",
+      "category": "samples/file"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\File\\directory.json",
+      "to": "libs/samples/file/directory.json",
+      "category": "samples/file"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\File\\copy.json",
+      "to": "libs/samples/file/copy.json",
+      "category": "samples/file"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Database\\rollbackTransaction.json",
+      "to": "libs/samples/database/rollbackTransaction.json",
+      "category": "samples/database"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Database\\openDatabase.json",
+      "to": "libs/samples/database/openDatabase.json",
+      "category": "samples/database"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Database\\executeSql.json",
+      "to": "libs/samples/database/executeSql.json",
+      "category": "samples/database"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Database\\executeSelect.json",
+      "to": "libs/samples/database/executeSelect.json",
+      "category": "samples/database"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Database\\executeBatchSql.json",
+      "to": "libs/samples/database/executeBatchSql.json",
+      "category": "samples/database"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Database\\commitTransaction.json",
+      "to": "libs/samples/database/commitTransaction.json",
+      "category": "samples/database"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Database\\closeDatabase.json",
+      "to": "libs/samples/database/closeDatabase.json",
+      "category": "samples/database"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Database\\beginTransaction.json",
+      "to": "libs/samples/database/beginTransaction.json",
+      "category": "samples/database"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\Contacts\\get.json",
+      "to": "libs/samples/contacts/get.json",
+      "category": "samples/contacts"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\App\\setTimeout.json",
+      "to": "libs/samples/app/setTimeout.json",
+      "category": "samples/app"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\App\\getTimeout.json",
+      "to": "libs/samples/app/getTimeout.json",
+      "category": "samples/app"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\App\\exit.json",
+      "to": "libs/samples/app/exit.json",
+      "category": "samples/app"
+    },
+    {
+      "from": "public\\mock\\bizMOB\\App\\callPlugIn\\APP_UPDATE_CHECK.json",
+      "to": "libs/samples/app/APP_UPDATE_CHECK.json",
+      "category": "samples/app"
+    },
+    {
+      "from": "tsconfig.json",
+      "to": "libs/config/tsconfig.json",
+      "category": "config"
+    },
+    {
+      "from": "package.json",
+      "to": "libs/config/package.json",
+      "category": "config"
+    },
+    {
+      "from": "package-lock.json",
+      "to": "libs/config/package-lock.json",
+      "category": "config"
+    }
+  ]
+}

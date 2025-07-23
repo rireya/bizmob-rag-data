@@ -1,0 +1,18 @@
+{
+  "images":[
+     {
+        "filename":"Screenshot_20240419_120227_[UAT] smartBiz.jpg",
+        "index":1,
+        "uri":"/storage/emulated/0/DCIM/Screenshots/Screenshot_20240419_120227_[UAT] smartBiz.jpg",
+        "size":"416757"
+     },
+     {
+        "filename":"Screenshot_20240419_115929_smartBiz.jpg",
+        "index":2,
+        "uri":"/storage/emulated/0/DCIM/Screenshots/Screenshot_20240419_115929_smartBiz.jpg",
+        "size":"354988"
+     }
+  ],
+  "result":true,
+  "error":{}
+}

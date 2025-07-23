@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-07-23T16:30:02.940Z",
+  "stats": {
+    "processed": 106,
+    "succeeded": 78,
+    "failed": 0,
+    "skipped": 28
+  },
+  "successRate": 73.6
+}

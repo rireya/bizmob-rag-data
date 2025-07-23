@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-07-23T17:00:04.343Z",
+  "totalEmbeddings": 118,
+  "embeddingModel": "text-embedding-004",
+  "vectorDimension": 768,
+  "chromaCollection": null,
+  "categories": {
+    "classes": 118
+  }
+}

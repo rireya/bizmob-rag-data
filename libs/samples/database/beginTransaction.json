@@ -1,0 +1,4 @@
+{
+  "result" : "Boolean|트랜잭션 시작 결과 값",
+  "error_message" : "String|트랜잭션 시작 실패시 오류 메세지."
+}

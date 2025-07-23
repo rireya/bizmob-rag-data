@@ -1,0 +1,13 @@
+{
+  "list":[
+     {
+        "result":true,
+        "file_path":"/storage/emulated/0/Android/data/kr.co.mcnc.bizmob4.dev/files/imagestest.jpg",
+        "message":"",
+        "file_id":0,
+        "total_count":1,
+        "current_count":1
+     }
+  ],
+  "result":true
+}
