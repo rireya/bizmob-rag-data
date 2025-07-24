@@ -1,0 +1,21 @@
+{
+    "result" : "Boolean(true : 성공, false : 실패)",
+    "resultCode" : "String(결과 코드)",
+    "resultMessage" : "String(결과 메세지)",
+    "body" : {
+        "channelType": "String(푸시발송시 요청이 들어온 채널. HTTP 또는 DB)",
+        "messageSubject": "String(푸시메세지 제목)",
+        "fromUser": "String(푸시메세지 발송자)",
+        "messageContent": "String(푸시메세지 내용)",
+        "messageCategory": "String(푸시메세지 카테고리)",
+        "processedDate": "String(발송처리시간)",
+        "trxType": "String(푸시메세지 전송방식)",
+        "appName": "String(푸시메세지를 수신한 앱 이름)",
+        "processed": "Boolean(푸시 발송 처리 여부)",
+        "messagePayload": "Object(푸시메세지와 함께 전송된 파라미터)",
+        "trxId": "Number(트랜잭션 아이디)",
+        "trxDay": "String(트랜잭션날짜)",
+        "serverId": "String(푸시서버아이디)",
+        "trxDate": "String(푸시발송을 등록한 시간)"
+    }
+}

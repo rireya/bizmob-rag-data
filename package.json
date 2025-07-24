@@ -5,14 +5,17 @@
   "main": "index.js",
   "scripts": {
     "migrate": "node scripts/migrate-from-original.js",
-    "analyze": "node scripts/analyze-structure.js",
-    "extract": "node scripts/extract-all.js",
     "quality": "node scripts/analyze-jsdoc-quality.js",
     "chunk": "node scripts/extract-and-chunk.js",
     "embeddings": "node scripts/generate-embeddings.js",
+    "build": "npm run migrate && npm run chunk && npm run embeddings",
+
+    "mcp": "node scripts/mcp-server.js",
+
+    "extract": "node scripts/extract-all.js",
+    "analyze": "node scripts/analyze-structure.js",
     "validate": "node scripts/validate-migration.js",
-    "build": "npm run migrate && npm run extract && npm run embeddings",
-    "dev": "nodemon scripts/extract-all.js",
+
     "test": "jest",
     "lint": "eslint src/ scripts/",
     "clean": "rimraf output/ temp/"

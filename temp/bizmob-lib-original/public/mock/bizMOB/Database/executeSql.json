@@ -1,0 +1,7 @@
+{
+    "result" : "Boolean|SQL쿼리문 실행 결과 값",
+    "error_message" : "String|SQL쿼리문 실행 실패시 오류 메세지.",
+    "data" : {
+        "affected_number" : "Number|SQL쿼리문 실행 후 영향을 받은 레코드 수."
+    }
+}

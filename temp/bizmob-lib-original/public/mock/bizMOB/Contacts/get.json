@@ -1,0 +1,72 @@
+{
+  "total_count": 5,
+  "contact_count": 5,
+  "list": [
+    {
+      "fax_number": "",
+      "department": "",
+      "concurrent": "",
+      "company_telphone": "",
+      "title": "",
+      "full_name": "Area",
+      "email": "",
+      "mobile_number": "00115",
+      "company_name": "",
+      "contact_uid": "169",
+      "contact_box_id": ""
+    },
+    {
+      "fax_number": "",
+      "department": "",
+      "concurrent": "",
+      "company_telphone": "",
+      "title": "",
+      "full_name": "Gugg",
+      "email": "",
+      "mobile_number": "098655",
+      "company_name": "",
+      "contact_uid": "5",
+      "contact_box_id": ""
+    },
+    {
+      "fax_number": "",
+      "department": "",
+      "concurrent": "",
+      "company_telphone": "",
+      "title": "",
+      "full_name": "Jack",
+      "email": "",
+      "mobile_number": "09255585",
+      "company_name": "",
+      "contact_uid": "17",
+      "contact_box_id": ""
+    },
+    {
+      "fax_number": "",
+      "department": "",
+      "concurrent": "",
+      "company_telphone": "",
+      "title": "",
+      "full_name": "Test 01",
+      "email": "",
+      "mobile_number": "0000000",
+      "company_name": "",
+      "contact_uid": "3",
+      "contact_box_id": ""
+    },
+    {
+      "fax_number": "",
+      "department": "",
+      "concurrent": "",
+      "company_telphone": "",
+      "title": "",
+      "full_name": "Test 02",
+      "email": "",
+      "mobile_number": "0000001",
+      "company_name": "",
+      "contact_uid": "4",
+      "contact_box_id": ""
+    }
+  ],
+  "result": true
+}

@@ -1,0 +1,8 @@
+{
+    "result" : "Boolean|SQL쿼리문 일괄 실행 결과 값",
+    "error_message" : "String|SQL쿼리문 일괄 실행 실패시 오류 메세지.",
+    "data" : {
+        "affected_number" : "Number|SQL쿼리문 일괄 실행 후 영향을 받은 레코드 수.",
+        "code" : "String|오류 코드(오류시에만 return)"
+    }
+}

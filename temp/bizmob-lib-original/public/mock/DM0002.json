@@ -1,0 +1,54 @@
+{
+    "header": {
+        "result": true,
+        "error_code": "",
+        "error_text": "",
+        "trcode": "mock-DM0002"
+    },
+    "body": {
+        "totalCnt": 6,
+        "list": [{
+            "regName": "",
+            "deptName": "",
+            "attachFlag": "Y",
+            "regDate": "202003181710",
+            "title": "게시판제목 (local)",
+            "docId": "DEBD0000000006"
+        }, {
+            "regName": "",
+            "deptName": "",
+            "attachFlag": "Y",
+            "regDate": "202003181709",
+            "title": "게시판제목 (local)",
+            "docId": "DEBD0000000005"
+        }, {
+            "regName": "",
+            "deptName": "",
+            "attachFlag": "Y",
+            "regDate": "202003181450",
+            "title": "게시판제목 (local)",
+            "docId": "DEBD0000000004"
+        }, {
+            "regName": "",
+            "deptName": "",
+            "attachFlag": "Y",
+            "regDate": "202003031807",
+            "title": "게시판12 (local)",
+            "docId": "DEBD0000000003"
+        }, {
+            "regName": "",
+            "deptName": "",
+            "attachFlag": "Y",
+            "regDate": "202003031807",
+            "title": "한글인코딩테스트 (local)",
+            "docId": "DEBD0000000002"
+        }, {
+            "regName": "",
+            "deptName": "",
+            "attachFlag": "Y",
+            "regDate": "202003031806",
+            "title": "게시판제목 (local)",
+            "docId": "DEBD0000000001"
+        }]
+    }
+}

@@ -23,13 +23,16 @@ class DocumentExtractor {
     // 1. TypeScript 파일에서 문서 추출
     await this.extractFromTypeScript();
 
-    // 2. Mock 데이터에서 API 사용 예제 추출
+    // 2. JavaScript 파일에서 문서 추출
+    await this.extractFromJavaScript();
+
+    // 3. Mock 데이터에서 API 사용 예제 추출
     await this.extractFromMockData();
 
-    // 3. 문서 청킹
+    // 4. 문서 청킹
     await this.chunkDocuments();
 
-    // 4. 결과 저장
+    // 5. 결과 저장
     await this.saveResults();
 
     console.log('✅ 문서 추출 및 청킹 완료!');
@@ -47,12 +50,29 @@ class DocumentExtractor {
 
     const coreFiles = glob.sync('libs/typescript/core/**/*.ts');
     const classFiles = glob.sync('libs/typescript/classes/**/*.ts');
+    const typeFiles = glob.sync('libs/typescript/types/**/*.ts');
 
-    for (const filePath of [...coreFiles, ...classFiles]) {
+    for (const filePath of [...coreFiles, ...classFiles, ...typeFiles]) {
       await this.extractFromTSFile(filePath);
     }
 
-    console.log(`   📄 ${coreFiles.length + classFiles.length}개 TS 파일 처리 완료`);
+    console.log(`   📄 ${coreFiles.length + classFiles.length + typeFiles.length}개 TS 파일 처리 완료`);
+  }
+
+  /**
+   * JavaScript 파일에서 문서 추출
+   */
+  async extractFromJavaScript() {
+    console.log('\n🔍 JavaScript 파일 문서 추출 중...');
+
+    const bundleFiles = glob.sync('libs/javascript/bundles/**/*.js');
+    const externalFiles = glob.sync('libs/javascript/externals/**/*.js');
+
+    for (const filePath of [...bundleFiles, ...externalFiles]) {
+      await this.extractFromJSFile(filePath);
+    }
+
+    console.log(`   📄 ${bundleFiles.length + externalFiles.length}개 JS 파일 처리 완료`);
   }
 
   /**
@@ -62,13 +82,17 @@ class DocumentExtractor {
     try {
       const content = await fs.readFile(filePath, 'utf8');
       const fileName = path.basename(filePath, '.ts');
-      const category = filePath.includes('/core/') ? 'core' : 'classes';
+      let category = 'typescript';
+
+      if (filePath.includes('/core/')) category = 'typescript-core';
+      else if (filePath.includes('/classes/')) category = 'typescript-classes';
+      else if (filePath.includes('/types/')) category = 'typescript-types';
 
       // JSDoc 블록 추출
       const jsDocBlocks = this.extractJSDocBlocks(content);
 
       // 함수별 문서 생성
-      const functions = this.extractFunctions(content);
+      const functions = this.extractFunctions(content, 'typescript');
 
       functions.forEach(func => {
         const relatedJSDoc = jsDocBlocks.find(doc =>
@@ -81,6 +105,7 @@ class DocumentExtractor {
             title: `${fileName}.${func.name}`,
             type: 'function',
             category: category,
+            language: 'typescript',
             module: fileName,
             functionName: func.name,
             signature: func.signature,
@@ -88,7 +113,7 @@ class DocumentExtractor {
             parameters: relatedJSDoc?.parameters || [],
             returns: relatedJSDoc?.returns || '',
             examples: relatedJSDoc?.examples || [],
-            content: this.buildFunctionDoc(fileName, func, relatedJSDoc),
+            content: this.buildFunctionDoc(fileName, func, relatedJSDoc, 'typescript'),
             source: filePath,
             line: func.line
           };
@@ -98,6 +123,60 @@ class DocumentExtractor {
       });
 
       console.log(`   ✅ ${fileName}: ${functions.length}개 함수 추출`);
+
+    } catch (error) {
+      console.error(`   ❌ ${filePath} 처리 실패:`, error.message);
+    }
+  }
+
+  /**
+   * 개별 JavaScript 파일 처리
+   */
+  async extractFromJSFile(filePath) {
+    try {
+      const content = await fs.readFile(filePath, 'utf8');
+      const fileName = path.basename(filePath, '.js');
+      let category = 'javascript';
+
+      if (filePath.includes('/bundles/')) category = 'javascript-bundles';
+      else if (filePath.includes('/externals/')) category = 'javascript-externals';
+
+      // JSDoc 블록 추출
+      const jsDocBlocks = this.extractJSDocBlocks(content);
+
+      // 함수별 문서 생성
+      const functions = this.extractFunctions(content, 'javascript');
+
+      functions.forEach(func => {
+        const relatedJSDoc = jsDocBlocks.find(doc =>
+          doc.line < func.line && func.line - doc.line < 10
+        );
+
+        // JavaScript는 JSDoc이 있는 함수만 추출
+        if (relatedJSDoc) {
+          const doc = {
+            id: `${fileName}_${func.name}`,
+            title: `${fileName}.${func.name}`,
+            type: 'function',
+            category: category,
+            language: 'javascript',
+            module: fileName,
+            functionName: func.name,
+            signature: func.signature,
+            description: relatedJSDoc.description || '',
+            parameters: relatedJSDoc.parameters || [],
+            returns: relatedJSDoc.returns || '',
+            examples: relatedJSDoc.examples || [],
+            content: this.buildFunctionDoc(fileName, func, relatedJSDoc, 'javascript'),
+            source: filePath,
+            line: func.line
+          };
+
+          this.extractedDocs.push(doc);
+        }
+      });
+
+      console.log(`   ✅ ${fileName}: ${functions.length}개 함수 추출 (JSDoc 있는 함수만)`);
 
     } catch (error) {
       console.error(`   ❌ ${filePath} 처리 실패:`, error.message);
@@ -130,34 +209,63 @@ class DocumentExtractor {
   }
 
   /**
-   * 함수 추출
+   * 함수 추출 (TypeScript와 JavaScript 모두 지원)
    */
-  extractFunctions(content) {
+  extractFunctions(content, language) {
     const functions = [];
 
-    // 다양한 함수 패턴
-    const patterns = [
-      // export function
-      /export\s+(?:async\s+)?function\s+(\w+)\s*\(([^)]*)\)\s*(?::\s*([^{]+))?\s*{/g,
-      // class method
-      /(?:public|private|protected|static)?\s*(?:async\s+)?(\w+)\s*\(([^)]*)\)\s*(?::\s*([^{]+))?\s*{/g,
-      // arrow function
-      /(?:export\s+)?const\s+(\w+)\s*[:=]\s*(?:async\s*)?\(([^)]*)\)\s*(?::\s*([^=]+))?\s*=>/g
-    ];
+    let patterns = [];
+
+    if (language === 'typescript') {
+      patterns = [
+        // TypeScript 패턴
+        /export\s+(?:async\s+)?function\s+(\w+)\s*\(([^)]*)\)\s*(?::\s*([^{]+))?\s*{/g,
+        /(?:public|private|protected|static)?\s*(?:async\s+)?(\w+)\s*\(([^)]*)\)\s*(?::\s*([^{]+))?\s*{/g,
+        /(?:export\s+)?const\s+(\w+)\s*[:=]\s*(?:async\s*)?\(([^)]*)\)\s*(?::\s*([^=]+))?\s*=>/g
+      ];
+    } else {
+      patterns = [
+        // JavaScript 패턴
+        /function\s+(\w+)\s*\(([^)]*)\)\s*{/g,
+        /(\w+)\s*:\s*function\s*\(([^)]*)\)\s*{/g,
+        /(\w+)\s*=\s*function\s*\(([^)]*)\)\s*{/g,
+        /var\s+(\w+)\s*=\s*function\s*\(([^)]*)\)\s*{/g,
+        /let\s+(\w+)\s*=\s*function\s*\(([^)]*)\)\s*{/g,
+        /const\s+(\w+)\s*=\s*function\s*\(([^)]*)\)\s*{/g,
+        // bizMOB 특화 패턴
+        /bizMOB(?:Core|WebCore)?\.(\w+)\.(\w+)\s*=\s*function\s*\(([^)]*)\)\s*{/g,
+        /(\w+)\.prototype\.(\w+)\s*=\s*function\s*\(([^)]*)\)\s*{/g
+      ];
+    }
 
     patterns.forEach(pattern => {
       let match;
       while ((match = pattern.exec(content)) !== null) {
         const line = content.substring(0, match.index).split('\n').length;
 
-        functions.push({
-          name: match[1],
-          parameters: match[2] || '',
-          returnType: match[3] || '',
-          signature: this.buildSignature(match[1], match[2], match[3]),
-          line: line,
-          hasSignature: true
-        });
+        let functionName, parameters, returnType;
+
+        // bizMOB 특화 패턴 처리
+        if (match[0].includes('bizMOB')) {
+          functionName = match[2] || match[1];
+          parameters = match[3] || match[2] || '';
+          returnType = '';
+        } else {
+          functionName = match[1];
+          parameters = match[2] || '';
+          returnType = match[3] || '';
+        }
+
+        if (functionName && functionName.length > 1) {
+          functions.push({
+            name: functionName,
+            parameters: parameters,
+            returnType: returnType,
+            signature: this.buildSignature(functionName, parameters, returnType),
+            line: line,
+            hasSignature: true
+          });
+        }
       }
     });
 
@@ -239,11 +347,16 @@ class DocumentExtractor {
   /**
    * 함수 문서 생성
    */
-  buildFunctionDoc(module, func, jsDoc) {
+  buildFunctionDoc(module, func, jsDoc, language) {
     let content = `# ${module}.${func.name}\n\n`;
 
+    // 언어 정보 추가
+    const langIcon = language === 'typescript' ? '🟦' : '🟨';
+    content += `${langIcon} **언어**: ${language.toUpperCase()}\n\n`;
+
     // 함수 시그니처
-    content += `## 함수 시그니처\n\`\`\`typescript\n${func.signature}\n\`\`\`\n\n`;
+    const codeLanguage = language === 'typescript' ? 'typescript' : 'javascript';
+    content += `## 함수 시그니처\n\`\`\`${codeLanguage}\n${func.signature}\n\`\`\`\n\n`;
 
     // 설명
     if (jsDoc?.description) {
@@ -269,7 +382,7 @@ class DocumentExtractor {
     if (jsDoc?.examples && jsDoc.examples.length > 0) {
       content += `## 사용 예제\n`;
       jsDoc.examples.forEach((example, index) => {
-        content += `### 예제 ${index + 1}\n\`\`\`javascript\n${example}\n\`\`\`\n\n`;
+        content += `### 예제 ${index + 1}\n\`\`\`${codeLanguage}\n${example}\n\`\`\`\n\n`;
       });
     }
 
@@ -323,6 +436,7 @@ class DocumentExtractor {
         title: `${fileName} API 사용 예제`,
         type: 'api_example',
         category: `samples_${category}`,
+        language: 'json',
         apiName: fileName,
         content: this.buildMockDoc(fileName, category, mockData),
         mockData: mockData,
@@ -428,11 +542,13 @@ class DocumentExtractor {
       title: doc.title,
       type: doc.type,
       category: doc.category,
+      language: doc.language,
       content: text.trim(),
       metadata: {
         module: doc.module,
         functionName: doc.functionName,
         apiName: doc.apiName,
+        language: doc.language,
         source: doc.source,
         line: doc.line
       }
@@ -457,6 +573,7 @@ class DocumentExtractor {
       totalDocuments: this.extractedDocs.length,
       totalChunks: this.chunks.length,
       documentTypes: this.getDocumentStats(),
+      languageStats: this.getLanguageStats(),
       chunkSizeStats: this.getChunkStats()
     };
 
@@ -474,6 +591,17 @@ class DocumentExtractor {
     const stats = {};
     this.extractedDocs.forEach(doc => {
       stats[doc.type] = (stats[doc.type] || 0) + 1;
+    });
+    return stats;
+  }
+
+  /**
+   * 언어별 통계 생성
+   */
+  getLanguageStats() {
+    const stats = {};
+    this.extractedDocs.forEach(doc => {
+      stats[doc.language] = (stats[doc.language] || 0) + 1;
     });
     return stats;
   }
@@ -504,6 +632,13 @@ class DocumentExtractor {
     console.log('\n📋 문서 유형별 분류:');
     Object.entries(docStats).forEach(([type, count]) => {
       console.log(`  ${type}: ${count}개`);
+    });
+
+    const langStats = this.getLanguageStats();
+    console.log('\n🔤 언어별 분류:');
+    Object.entries(langStats).forEach(([language, count]) => {
+      const icon = language === 'typescript' ? '🟦' : language === 'javascript' ? '🟨' : '📄';
+      console.log(`  ${icon} ${language}: ${count}개`);
     });
 
     const chunkStats = this.getChunkStats();

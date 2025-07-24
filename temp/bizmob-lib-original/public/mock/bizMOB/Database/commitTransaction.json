@@ -1,0 +1,5 @@
+{
+    "result" : "Boolean|트랜잭션 커밋 결과 값",
+    "error_message" : "String|트랜잭션 커밋 실패시 오류 메세지."
+
+}

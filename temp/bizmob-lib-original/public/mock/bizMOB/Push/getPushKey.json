@@ -1,0 +1,5 @@
+{
+    "result" : "Boolean(true : 성공, false : 실패)",
+    "resultCode" : "String(결과 코드)",
+    "resultMessage" : "String(푸시키)"
+}

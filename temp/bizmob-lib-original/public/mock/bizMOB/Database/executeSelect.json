@@ -1,0 +1,9 @@
+{
+    "result" : "Boolean|SELECT SQL쿼리문 실행 결과 값",
+    "error_message" : "String|SELECT SQL쿼리문 실행 실패시 오류 메세지.",
+    "data" : {
+        "result_set" : {
+            "rows" : "Array|SELECT SQL쿼리문 실행으로 반환된 레코드 배열."
+        }
+    }
+}
