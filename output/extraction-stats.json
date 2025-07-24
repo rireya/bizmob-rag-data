@@ -1,19 +1,18 @@
 {
-  "timestamp": "2025-07-24T00:01:06.164Z",
-  "totalDocuments": 463,
-  "totalChunks": 397,
+  "timestamp": "2025-07-24T00:26:26.309Z",
+  "totalDocuments": 246,
+  "totalChunks": 185,
   "documentTypes": {
-    "function": 415,
+    "function": 198,
     "api_example": 48
   },
   "languageStats": {
     "typescript": 198,
-    "javascript": 217,
     "json": 48
   },
   "chunkSizeStats": {
-    "count": 397,
-    "avgSize": 228,
+    "count": 185,
+    "avgSize": 258,
     "minSize": 98,
     "maxSize": 741
   }

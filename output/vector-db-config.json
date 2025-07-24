@@ -1,11 +1,10 @@
 {
-  "timestamp": "2025-07-24T00:06:20.828Z",
-  "totalEmbeddings": 397,
+  "timestamp": "2025-07-24T00:28:55.184Z",
+  "totalEmbeddings": 185,
   "embeddingModel": "text-embedding-004",
   "vectorDimension": 768,
   "chromaCollection": null,
   "categories": {
-    "typescript": 185,
-    "javascript": 212
+    "typescript": 185
   }
 }

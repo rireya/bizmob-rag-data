@@ -9,9 +9,13 @@
 curl "https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:embedContent" -H "Content-Type: application/json" -H "X-goog-api-key: YOUR_API_KEY" -X POST -d "{\"model\": \"models/text-embedding-004\", \"content\": {\"parts\": [{\"text\": \"bizMOB 파일 업로드 테스트\"}]}}"
 ```
 
-- Claude Desktop 설정: `%APPDATA%\Claude\claude_desktop_config.json`
+```bash
+# 구글키 저장
+setx GOOGLE_AI_API_KEY "your-api-key"
+```
 
 ```json
+// Claude Desktop 설정: `C:\Users\{사용자명}\AppData\Claude\claude_desktop_config.json`
 {
   "mcpServers": {
     "bizmob-rag": {
@@ -25,25 +29,8 @@ curl "https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004
   }
 }
 
-```markdown
-# 방법 1: Windows 시스템 환경변수 설정
-
-# 1. Windows 키 + R → "sysdm.cpl" 입력
-
-# 2. "고급" 탭 → "환경 변수" 버튼
-
-# 3. "시스템 변수"에서 "새로 만들기"
-
-# 변수 이름: GOOGLE_AI_API_KEY
-
-# 변수 값: your-google-ai-api-key
-
-# 방법 2: PowerShell (관리자 권한)에서 영구 설정
-
-[Environment]::SetEnvironmentVariable("GOOGLE_AI_API_KEY", "your-google-ai-api-key", "Machine")
-
-# 방법 3: Claude 앱 시작 전에 환경변수 설정 후 앱 실행
-
-$env:GOOGLE_AI_API_KEY = "your-google-ai-api-key"
-& "C:\Users\rirey\AppData\Local\AnthropicClaude\Claude.exe"
+```bash
+# 콘솔 한글 깨짐 해결
+chcp 65001
+npm run quality
 ```
